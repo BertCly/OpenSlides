@@ -1,0 +1,224 @@
+/*Homepage*/
+.getStartedBlock{
+
+}
+#getStarted{
+    text-align: center;
+    color: rgb(95, 111, 126);
+    display: none;
+}
+#getStarted section{
+    padding: 60px 0 70px;
+}
+#getStarted h1, #getStarted h2 {
+    font: 400 37px "PT Sans Narrow", Arial, sans-serif;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#getStarted h1:after, #getStarted h2:after {
+    z-index: 2;
+    content: " ";
+    display: block;
+    padding-top: 7px;
+    border-bottom: 2px solid #b7bbbf;
+    width: 73px;
+    margin: 0 auto;
+}
+#getStarted h1 strong, #getStarted h2 strong{
+    color: #e54a1a;
+    font-weight: 300;
+}
+
+/* homepage - Services block */
+.services-block {
+    background: #f6f6f6;
+    padding: 60px 0 70px;
+}
+.services-block a{
+    color: rgb(95, 111, 126);
+}
+.services-block .row {
+    padding-top: 44px;
+}
+.services-block .item {
+    border-right: solid 1px #e8e7e7;
+    padding-top: 9px;
+}
+.services-block .col-md-3:last-child {
+    border-right: none;
+}
+.services-block .fa {
+    background: #e85425;
+    color: #fff;
+    width: 99px;
+    height: 99px;
+    line-height: 1;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 29px;
+}
+.services-block .fa:after {
+    bottom: -8px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    margin-left: -9px;
+    z-index: 2;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-top: 9px solid #e85425;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+}
+
+.services-block .fa {
+    font-size: 38px;
+    padding: 35px 0 0;
+}
+
+.services-block p {
+    margin-bottom: 5px;
+}
+
+/*..... PRESSROOM ...... http://do.live147.com/html/wavex/index.html#.*/
+
+.IndepenManual .left-text{
+    text-align:right;
+    float:left;
+    width:520px;
+    margin:25px 0 0 0;
+}
+.IndepenManual .left-text span.title{
+    font-weight:600;
+    font-size:18px;
+
+    text-transform:uppercase;
+}
+.IndepenManual .left-text p{
+    font-size:16px;
+    margin:0px;
+    margin: 5px 0 5px 0;
+}
+.IndepenManual .left-text span{
+    color: #9C9C9C;
+    font-size: 14px;
+}
+.IndepenManual .left-text a{
+    font-size:14px;
+    font-weight:600;
+    text-transform:uppercase;
+    margin:0px;
+}
+.IndepenManual .divider{
+    float: left;
+    padding:0 40px
+}
+
+.IndepenManual .clear {
+    clear: both;
+}
+
+.IndepenManual .right-text{
+    text-align:left;
+    float:right;
+    width:522px;
+    margin:25px 0 0 0;
+}
+.IndepenManual .press-img{
+    float:left;
+
+}
+.image {
+    float: left;
+    height: 194px;
+    overflow: hidden;
+    width: 520px;
+    cursor:pointer;
+}
+.press-img img{
+    width: 520px;
+    height: 194px;max-width:none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+.press-img img:hover{
+    max-width:none;
+    width: 700px;
+    height:250px;
+    margin:-40px 0 -180px -50px;
+}
+.IndepenManual .right-text span.title{
+    font-weight:600;
+    font-size:18px;
+
+    text-transform:uppercase;
+}
+.IndepenManual .right-text p{
+    font-size:16px;
+    margin: 5px 0 5px 0;
+}
+.IndepenManual .right-text span{
+    color: #9C9C9C;
+    font-size: 14px;
+}
+.IndepenManual .right-text a{
+    font-size:14px;
+    font-weight:600;
+    text-transform:uppercase;
+    margin:0px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .IndepenManual .left-text {
+        width: 450px;
+        margin: 10px 40px 0 0;
+    }
+    .IndepenManual .right-text {
+        width: 450px;
+        margin: 10px 40px 0 0;
+    }
+    .com-sec{
+        margin:0 0 30px 0;
+        display:inline-block;
+    }
+    .IndepenManual .divider{
+        display:none;
+    }
+    .IndepenManual .press-img{
+        width: 46%;
+    }
+    .IndepenManual .press-img img{
+        /* width: 100%; */
+    }
+}
+@media (max-width: 992px) {
+    .IndepenManual {
+        padding: 20px 0 0 0;
+    }
+    .IndepenManual .divider{
+        display:none;
+    }
+    .IndepenManual .press-img{
+        width: 100%;
+        display:none;
+    }
+    .IndepenManual .press-img img{
+        width: 100%;
+    }
+    .testi-detail {
+        margin: 72px 0 0 0;
+    }
+    .IndepenManual .left-text {
+        text-align: center;
+    }
+    .IndepenManual .right-text {
+        text-align: center;
+    }
+}

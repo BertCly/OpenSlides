@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce477160-ef38-4542-83b1-183f031afa17" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\assignment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder_withSelectionBox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_corrector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_platform.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver_WithSelectionBo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver_WithSelectionbox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_credit_memos.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_history.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_invoices.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_shipment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_orders.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_history.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_reviews.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_products.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\idletimeout_keepalive.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\jstree_ajax_data.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\timeout-keep-alive.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_countries.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_custom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nba.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nhl.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\username_checker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\distribute.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\extra_500_option1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\extra_profile_backup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseHistory_ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_build.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\db_queries.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\basisscholen.xls" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\example.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\getschools.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\oleread.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\reader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\news.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\page_news_item.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\pricetable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\students.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\assets\global\img\eraser.cur" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\back-global.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\recto_naamkaartje_earnieland.pdf" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_page.php" afterPath="$PROJECT_DIR$/admin/presentation_page.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_page_edit.php" afterPath="$PROJECT_DIR$/admin/presentation_page_edit.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver.php" afterPath="$PROJECT_DIR$/admin/presentation_viewer.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses.php" afterPath="$PROJECT_DIR$/admin/presentations.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses_admin.php" afterPath="$PROJECT_DIR$/admin/presentations_admin.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course.php" afterPath="$PROJECT_DIR$/admin/includes/presentation.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseReviews_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentationReviews_ajax.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_load.php" afterPath="$PROJECT_DIR$/admin/includes/presentation_load.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_upload.php" afterPath="$PROJECT_DIR$/admin/includes/presentation_upload.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courses_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentations_ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/course_solve.php" afterPath="$PROJECT_DIR$/admin/includes/course_solve.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index_admin.php" afterPath="$PROJECT_DIR$/admin/index_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/menu.php" afterPath="$PROJECT_DIR$/admin/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/page_header.php" afterPath="$PROJECT_DIR$/admin/page_header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/profile.php" afterPath="$PROJECT_DIR$/admin/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/search.php" afterPath="$PROJECT_DIR$/admin/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" afterPath="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="indepen.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="indepen" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ajaxActions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="46" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.45415473" vertical-offset="125" max-vertical-offset="2618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/queries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="153" selection-start="3078" selection-end="3078" vertical-scroll-proportion="-9.115385" vertical-offset="1208" max-vertical-offset="16779">
+              <folding>
+                <marker date="1413666173119" expanded="true" signature="1073:1194" placeholder="SELECT c.* F..tblUser_UserGroups..." />
+                <marker date="1413666173119" expanded="true" signature="1270:1311" placeholder="SELECT * FRO..tblUsers..." />
+                <marker date="1413666173119" expanded="true" signature="1400:1520" placeholder="SELECT u.* F..tblUser_UserGroups..." />
+                <marker date="1413666173119" expanded="true" signature="1611:1833" placeholder="SELECT u.*, ..tblUser_UserGroups..." />
+                <marker date="1413666173119" expanded="true" signature="1920:2041" placeholder="SELECT s.* F..tblUser_UserGroups..." />
+                <marker date="1413666173119" expanded="true" signature="2120:2149" placeholder="SELECT s.* F..tblSchools..." />
+                <marker date="1413666173119" expanded="true" signature="2233:2283" placeholder="SELECT s.* F..tblSchools..." />
+                <marker date="1413666173119" expanded="true" signature="2371:2464" placeholder="Select s.* F..tblschools..." />
+                <marker date="1413666173119" expanded="true" signature="2568:2619" placeholder="SELECT * FRO..tblClasses..." />
+                <marker date="1413666173119" expanded="true" signature="2729:2843" placeholder="SELECT TOP(2..tblNotifications..." />
+                <marker date="1413666173119" expanded="true" signature="2955:3201" placeholder="SELECT TOP(2..." />
+                <marker date="1413666173119" expanded="true" signature="3676:3765" placeholder="Select count..tblSolutions..." />
+                <marker date="1413666173119" expanded="true" signature="5081:5147" placeholder="Select ID FR..tblSolutions..." />
+                <marker date="1413666173119" expanded="true" signature="11090:11131" placeholder="SELECT * fro..tblSolutions..." />
+                <marker date="1413666173119" expanded="true" signature="24267:24409" placeholder="SELECT c.* F..tblPresentation_UserRights..." />
+                <marker date="1413666173119" expanded="true" signature="24533:24680" placeholder="SELECT s.* F..tblPresentation_UserRights..." />
+                <marker date="1413666173119" expanded="true" signature="27220:27247" placeholder="select * fro..tblCategories..." />
+                <marker date="1413666173119" expanded="true" signature="31822:31959" placeholder="SELECT * FRO..tblAssignments..." />
+                <marker date="1413666173119" expanded="true" signature="32534:32590" placeholder="SELECT * FRO..tblSchools..." />
+                <marker date="1413666173119" expanded="true" signature="34250:34308" placeholder="SELECT Usern..tblUsers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/admin/page_calendar.php" />
+        <option value="$PROJECT_DIR$/admin/page_contact.php" />
+        <option value="$PROJECT_DIR$/admin/page_news_item.html" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/search.js" />
+        <option value="$PROJECT_DIR$/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/student.php" />
+        <option value="$PROJECT_DIR$/admin/header.php" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/process_login.php" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/session_functions.php" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/scripts/layout.js" />
+        <option value="$PROJECT_DIR$/admin/students.php" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/user.js" />
+        <option value="$PROJECT_DIR$/admin/course_solver_WithSelectionbox.php" />
+        <option value="$PROJECT_DIR$/admin/includes/course_upload.php" />
+        <option value="$PROJECT_DIR$/admin/course_builder.php" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" />
+        <option value="$PROJECT_DIR$/admin/distribute.php" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/db.php" />
+        <option value="$PROJECT_DIR$/admin/includes/course_build.php" />
+        <option value="$PROJECT_DIR$/admin/course_page.php" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/calendar.js" />
+        <option value="$PROJECT_DIR$/admin/calendar.php" />
+        <option value="$PROJECT_DIR$/assets/global/scripts/metronic.js" />
+        <option value="$PROJECT_DIR$/admin/styleCustomizer.php" />
+        <option value="$PROJECT_DIR$/admin/user.php" />
+        <option value="$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/page_calendar.html" />
+        <option value="$PROJECT_DIR$/admin/faq.php" />
+        <option value="$PROJECT_DIR$/admin/course_solver.php" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/assignment-student.js" />
+        <option value="$PROJECT_DIR$/admin/course_corrector.php" />
+        <option value="$PROJECT_DIR$/admin/login.php" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/index.css" />
+        <option value="$USER_HOME$/Dropbox/libaro/Projecten/Indepen/index.html" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/logout.php" />
+        <option value="$PROJECT_DIR$/admin/includes/logout.php" />
+        <option value="$PROJECT_DIR$/admin/profile.php" />
+        <option value="$PROJECT_DIR$/admin/page_header.php" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/custom.css" />
+        <option value="$PROJECT_DIR$/admin/search.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/courses.php" />
+        <option value="$PROJECT_DIR$/admin/news.php" />
+        <option value="$PROJECT_DIR$/admin/menu.php" />
+        <option value="$PROJECT_DIR$/admin/course_page_edit.php" />
+        <option value="$PROJECT_DIR$/admin/includes/courses_ajax.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/admin/assignment.php" />
+        <option value="$PROJECT_DIR$/admin/includes/course_solve.php" />
+        <option value="$PROJECT_DIR$/admin/includes/presentation.php" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="localhost" name="localhost" port="8080" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="interpreter" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastersthesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastersthesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastersthesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mastersthesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="ajax&#10;menu&#10;custom&#10;search&#10;index&#10;profile&#10;logout&#10;scrollto&#10;ajaxa&#10;queries&#10;profil&#10;querie&#10;que&#10;user.&#10;metronic&#10;calendar.js&#10;confi&#10;&gt;&#10;db&#10;quer&#10;pdf&#10;page-hea&#10;web.config&#10;config.&#10;sess&#10;uplo&#10;sessions&#10;login.ph&#10;course_page_edit&#10;load&#10;queri&#10;selec&#10;viewer.j&#10;ruler.&#10;custo&#10;viewer.h&#10;pdf.&#10;profile-&#10;profile-img&#10;course_page&#10;page_&#10;layout.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\indepen\admin" />
+      <recent name="C:\xampp\htdocs\indepen\assets\admin\pages\media\profile" />
+      <recent name="C:\xampp\htdocs\indepen\assets\global\img\manual" />
+      <recent name="C:\xampp\htdocs\indepen\assets\admin\pages\scripts" />
+      <recent name="C:\xampp\htdocs\indepen\admin\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\indepen\assets\global\img" />
+      <recent name="C:\xampp\htdocs\indepen\admin\includes" />
+      <recent name="C:\xampp\htdocs\indepen\assets\global\dataConnection" />
+      <recent name="C:\xampp\htdocs\indepen\assets\global" />
+      <recent name="C:\xampp\htdocs\indepen\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.webApplication">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="5af04608-7b2b-4876-8827-1a989a7d7da7" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="false" name="webApplication" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="localhost" start_url="/masterthesis/admin">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.webApplication" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce477160-ef38-4542-83b1-183f031afa17" name="Default" comment="" />
+      <created>1405081488003</created>
+      <updated>1405081488003</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23160173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19006479" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17678382" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33909288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23218143" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21255507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="421" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="3" selection-start="4932" selection-end="4932" vertical-scroll-proportion="0.6069364" vertical-offset="2028" max-vertical-offset="2720" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/page_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="100" selection-start="11530" selection-end="11530" vertical-scroll-proportion="-4.1764708" vertical-offset="5040" max-vertical-offset="35955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="145" selection-start="27268" selection-end="27268" vertical-scroll-proportion="0.35755813" vertical-offset="706" max-vertical-offset="2686" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/table_advanced.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="95" selection-start="1994" selection-end="2406" vertical-scroll-proportion="-7.6666665" vertical-offset="204" max-vertical-offset="114308" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/assets/admin/pages/scripts/table-advanced.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="0" selection-start="68" selection-end="7113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="167" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="4335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/table-advanced.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="65" selection-start="2104" selection-end="2161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5967" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/assignment-student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/ui-extended-modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12427" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/styleCustomizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="65" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.84149855" vertical-offset="147" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/ui_tiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1359" column="12" selection-start="41475" selection-end="46445" vertical-scroll-proportion="0.23780487" vertical-offset="22947" max-vertical-offset="35139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="11" selection-start="14768" selection-end="14966" vertical-scroll-proportion="0.40416667" vertical-offset="6169" max-vertical-offset="11322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/quick-sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="91" selection-start="864" selection-end="864" vertical-scroll-proportion="0.35555556" vertical-offset="118" max-vertical-offset="3043" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/metronic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="403" column="8" selection-start="13980" selection-end="13980" vertical-scroll-proportion="0.0" vertical-offset="6616" max-vertical-offset="12359" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="528" column="57" selection-start="31258" selection-end="31258" vertical-scroll-proportion="0.26086956" vertical-offset="8748" max-vertical-offset="9622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="2127" selection-end="2212" vertical-scroll-proportion="0.83524024" vertical-offset="35" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery.scrollTo.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="261" selection-end="261" vertical-scroll-proportion="0.13416009" vertical-offset="0" max-vertical-offset="887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="780" selection-end="780" vertical-scroll-proportion="0.56666666" vertical-offset="153" max-vertical-offset="3893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="416" selection-end="416" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/session_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0730659" vertical-offset="0" max-vertical-offset="3145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/Indepen/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="58" selection-start="8498" selection-end="8498" vertical-scroll-proportion="0.7591241" vertical-offset="2370" max-vertical-offset="5593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/page_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="52" selection-start="9970" selection-end="9970" vertical-scroll-proportion="-24.115385" vertical-offset="2348" max-vertical-offset="3893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/faq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="63" selection-start="3061" selection-end="3061" vertical-scroll-proportion="-18.384615" vertical-offset="1188" max-vertical-offset="7582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/datatable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.77729255" vertical-offset="534" max-vertical-offset="5015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/table-ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.4857143" vertical-offset="153" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/extra_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1753" column="32" selection-start="55268" selection-end="59891" vertical-scroll-proportion="-4.254902" vertical-offset="29584" max-vertical-offset="52394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentations_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.5" vertical-offset="663" max-vertical-offset="3162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="325" column="20" selection-start="6111" selection-end="6111" vertical-scroll-proportion="0.0" vertical-offset="5058" max-vertical-offset="5644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_viewer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="28" selection-start="10367" selection-end="10379" vertical-scroll-proportion="0.23112659" vertical-offset="3643" max-vertical-offset="9401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="5015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="75" selection-start="7477" selection-end="7477" vertical-scroll-proportion="0.0" vertical-offset="3007" max-vertical-offset="7395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="76" selection-start="6949" selection-end="6949" vertical-scroll-proportion="0.0" vertical-offset="2108" max-vertical-offset="4386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="34" selection-start="5007" selection-end="5007" vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_page_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="425" column="52" selection-start="21090" selection-end="21090" vertical-scroll-proportion="0.0" vertical-offset="6992" max-vertical-offset="8007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/presentations_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="32" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.4570384" vertical-offset="209" max-vertical-offset="1972" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="763" selection-end="763" vertical-scroll-proportion="0.3112128" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8449">
+          <folding>
+            <marker date="1413666173073" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/presentation_load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/presentationReviews_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/userSettingsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/upload_processor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="342" column="103" selection-start="18711" selection-end="18711" vertical-scroll-proportion="0.0" vertical-offset="5814" max-vertical-offset="12104">
+          <folding>
+            <marker date="1413666173176" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1413666173176" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1413666173176" expanded="true" signature="-1:-1" placeholder="SELECT count..tblAssignment_Users..." />
+            <marker date="1413666173176" expanded="true" signature="-1:-1" placeholder="SELECT count..tblAssignment_Users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0730659" vertical-offset="0" max-vertical-offset="3213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/course_solve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.19484241" vertical-offset="0" max-vertical-offset="698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="153" selection-start="3078" selection-end="3078" vertical-scroll-proportion="-9.115385" vertical-offset="1208" max-vertical-offset="16779">
+          <folding>
+            <marker date="1413666173119" expanded="true" signature="1073:1194" placeholder="SELECT c.* F..tblUser_UserGroups..." />
+            <marker date="1413666173119" expanded="true" signature="1270:1311" placeholder="SELECT * FRO..tblUsers..." />
+            <marker date="1413666173119" expanded="true" signature="1400:1520" placeholder="SELECT u.* F..tblUser_UserGroups..." />
+            <marker date="1413666173119" expanded="true" signature="1611:1833" placeholder="SELECT u.*, ..tblUser_UserGroups..." />
+            <marker date="1413666173119" expanded="true" signature="1920:2041" placeholder="SELECT s.* F..tblUser_UserGroups..." />
+            <marker date="1413666173119" expanded="true" signature="2120:2149" placeholder="SELECT s.* F..tblSchools..." />
+            <marker date="1413666173119" expanded="true" signature="2233:2283" placeholder="SELECT s.* F..tblSchools..." />
+            <marker date="1413666173119" expanded="true" signature="2371:2464" placeholder="Select s.* F..tblschools..." />
+            <marker date="1413666173119" expanded="true" signature="2568:2619" placeholder="SELECT * FRO..tblClasses..." />
+            <marker date="1413666173119" expanded="true" signature="2729:2843" placeholder="SELECT TOP(2..tblNotifications..." />
+            <marker date="1413666173119" expanded="true" signature="2955:3201" placeholder="SELECT TOP(2..." />
+            <marker date="1413666173119" expanded="true" signature="3676:3765" placeholder="Select count..tblSolutions..." />
+            <marker date="1413666173119" expanded="true" signature="5081:5147" placeholder="Select ID FR..tblSolutions..." />
+            <marker date="1413666173119" expanded="true" signature="11090:11131" placeholder="SELECT * fro..tblSolutions..." />
+            <marker date="1413666173119" expanded="true" signature="24267:24409" placeholder="SELECT c.* F..tblPresentation_UserRights..." />
+            <marker date="1413666173119" expanded="true" signature="24533:24680" placeholder="SELECT s.* F..tblPresentation_UserRights..." />
+            <marker date="1413666173119" expanded="true" signature="27220:27247" placeholder="select * fro..tblCategories..." />
+            <marker date="1413666173119" expanded="true" signature="31822:31959" placeholder="SELECT * FRO..tblAssignments..." />
+            <marker date="1413666173119" expanded="true" signature="32534:32590" placeholder="SELECT * FRO..tblSchools..." />
+            <marker date="1413666173119" expanded="true" signature="34250:34308" placeholder="SELECT Usern..tblUsers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="46" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.45415473" vertical-offset="125" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

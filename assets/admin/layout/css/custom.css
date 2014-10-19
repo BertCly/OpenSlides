@@ -1,0 +1,327 @@
+/* here you can put your own css to customize and override the theme */
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+        border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+        border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+        border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.chooseNewpresentationType{
+    height: 130px;
+}
+div.selectFileUpload{
+    text-align: center;
+}
+div.selectFileUpload .fileUploadButton{
+    position:fixed;
+    top: 38%;
+    left: 43%;
+}
+div.selectFileUpload span.btn{
+    font-size: 22px;
+    padding-top: 33px;
+}
+div.selectFileUpload .btn.default{
+    height: 100px;
+    width: 200px
+}
+/*div.selectFileUpload input{*/
+/*width: 100px;*/
+/*}*/
+form .dbError span.help-block{
+    font-size: bold;
+}
+#maskLayer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100000;
+    display: none;
+}
+.circleShape{
+    border: 3px solid black;
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    position: absolute;
+    border-color: #06a;
+}
+.lineShape {
+    position: absolute; /* allows to position it anywhere */
+    width: 3px; /* your chosen line width */
+    background-color: #06a; /* line color */
+    z-index: 1000; /* make sure this is above your other elements */
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    width: 2px;
+    /* transform-origin sets rotation around top left (instead of the geometrical center) */
+}
+.textarea-box textarea.textAreaShape{
+    width: 100%;
+    height : 100%;
+    resize: none;
+    border: none;
+    background: none;
+}
+.toolbar{
+    position: static !important;
+}
+#secondaryToolbar{
+    width: 205px;
+}
+#feeds .user-info .label{
+    white-space: inherit;
+}
+.feeds li .col2 {
+    float: left;
+    width: 91px;
+    margin-left: -109px;
+}
+.unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-header-fixed .page-container{
+    margin-top: 0;
+    padding-top: 46px;
+}
+#pdfViewer{
+    height: 1024px;
+}
+.heightTest{
+    min-height: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/*presentation_page*/
+#tab_share ul.states {
+    width: 52%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+#tab_share ul.states li {
+    opacity: .5;
+}
+#tab_share ul.states li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    /*padding: 0 6em 0 0;*/
+    list-style-type: none;
+    font-size: 20px;
+}
+#tab_share ul.states a:hover {
+    text-decoration: none;
+}
+#tab_share ul.states li a:last-child, .privacy ul.states li a.last-child {
+    padding-right: 0;
+}
+#tab_share ul.states li a {
+    color: #666;
+    display: block;
+}
+#tab_share ul.states li strong {
+    font-weight: normal;
+}
+#tab_share ul.states li i {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+#tab_share #privacy-slider{
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#tab_share #linkShared{
+    display: none;
+}
+
+/*search page*/
+#searchTabs table td img {
+    max-height: 90px;
+}
+
+
+/*presentation_page*/
+.reviewStars{
+    padding-right: 10px;
+    color: #8e44ad;
+}
+#pdfPreviewer canvas{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#reviewRating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 30px;
+}
+#reviewRating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+#reviewRating span.star:hover {
+    cursor: pointer;
+}
+#reviewRating span.star:before {
+    content: "\f006";
+    padding-right: 5px;
+    color: #777777;
+}
+
+#reviewRating span.star:hover:before,
+#reviewRating span.star:hover ~ span.star:before {
+    content: "\f005";
+    color: #e3cf7a;
+}
+#reviewRating span.rated {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+#reviewRating span.rated:hover {
+    cursor: pointer;
+}
+#reviewRating span.rated:before {
+    content: "\f005";
+    padding-right: 5px;
+    color: #e3cf7a;
+}
+
+#reviewRating span.rated:hover:before,
+#reviewRating span.rated:hover ~ span.rated:before {
+    content: "\f005";
+    color: #e3cf7a;
+}
+#generalSettingsIndepen .form-control-static{
+    font-size: 17px;
+}
+#generalSettingsIndepen .fa-star{
+    color: #95a5a6;
+}
+.headEditor h3{
+    float: left;
+}
+.headEditor .actions{
+    float: right;
+    margin-right: 80px;
+}
+
+/*indepen builder*/
+#messageBox{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+}
+#messageBox .alert{
+    padding: 7px;
+    margin-bottom: 0;
+}
+#messageBox .close{
+    margin-top: 5px;
+}
+
+#pdfViewer .pageObject .close{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+#pdfViewer .pageObject .close:hover{
+    margin-top: 3px;
+    margin-right: 3px;
+    color: #D1D1D1;
+}
+#pdfViewer .removedObject{
+    display: none;
+}
+.selection-box{
+    border: 1px solid #D1D1D1;
+    position: absolute;
+}
+.textarea-box{
+    border: 1px solid #D1D1D1;
+    position: absolute;
+}
+.page-title a{
+    text-decoration: none;
+}
+.page-title a:hover{
+    cursor: pointer;
+    background-color: #eee;
+    text-decoration: none;
+}
+.page-title .tooltip{
+    font-weight: 500;
+}
+/*Distribute*/
+#distributeWizard #linkShared{
+    margin: 10px;
+}
+.btn{
+    -webkit-appearance: none;
+}
+
+.typeahead
+{
+    width: 390px;
+
+}
+
+.tt-dataset-schools{
+    background-color: rgba(255, 255, 255, 0.91);
+    width: 380px;
+    padding: 10px;
+}
+.tt-dataset-schools:hover{
+    cursor: pointer;
+}
+/*User*/
+.userTimeline .timeline-body h2{
+    margin-bottom: 0;
+    border-bottom: none !important;
+}
+
+.dataTables_wrapper .dataTables_filter label{
+    float: right !important;
+}
+
+/*presentations*/
+.search-classic .pic{
+     width: 60px;
+     float: left;
+     margin-right: 10px;
+ }
+.search-classic .pic img{
+    width: 100%;
+}
+.search-classic .desc{
+    float: left;
+}
+.search-classic{
+    min-height: 48px;
+    clear: both;
+    overflow: hidden;
+}

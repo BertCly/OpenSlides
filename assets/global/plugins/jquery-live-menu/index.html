@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>jQuery Live Menu</title>
+        <meta name="author" content="Biscay Charly" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />        
+        <script src="plugin/js/jquery-1.6.4.min.js"></script>        
+        <link href="_doc_assets/css/demo.css" rel="stylesheet" />
+        <script src="_doc_assets/js/demo.js"></script>        
+
+        <link href="plugin/css/jquery.liveMenu.css" rel="stylesheet" />
+        <script src="plugin/js/jquery.liveMenu.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.intro').liveMenu({
+                    button: 'right',
+                    position: 'mouse',
+                    imagesPath: '_doc_assets/img/',
+                    menuSize: 80,
+                    scale: 0.7,
+                    behind: {
+                        scale: 0.8,
+                        opacity: 0.6
+                    },
+                    tooltip:{
+                        gradient: '#ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%',
+                        arrowColor: '#89c3eb',
+                        color: '#003457',
+                        delay: 100,
+                        radius: 7
+                    },
+                    items:[{
+                            title: 'Twitter',
+                            image: 'icon.png'
+                        },{
+                            title: 'Facebook',
+                            image: 'icon.png'
+                        },{
+                            title: 'Google +',
+                            image: 'icon.png'
+                        },{
+                            title: 'Picasa',
+                            image: 'icon.png'
+                        },{
+                            title: 'R.S.S',
+                            image: 'icon.png'
+                        },{
+                            title: 'Deviant Art',
+                            image: 'icon.png'
+                        }]
+                });
+                
+                $('#demo1').liveMenu({
+                    imagesPath: '_doc_assets/img/',
+                    items:[{
+                            title: 'Share this by email',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Email !');
+                            }
+                        },{
+                            title: 'Stats',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Stats !');
+                            }
+                        },{
+                            title: 'Share this',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Share !');
+                            }
+                        },{
+                            title: 'More informations',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Informations !');
+                            }
+                        },{
+                            title: 'Download this',
+                            image: 'icon.png',
+                            click: function(){
+                                $('#demo1').html('Clicked : Download !');
+                            }
+                        },{
+                            title: 'View portfolio',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Portfolio !');
+                            }
+                        },{
+                            title: 'Modify this',
+                            image: 'icon.png',
+                            click: function(){ 
+                                $('#demo1').html('Clicked : Modify !');
+                            }
+                        },{
+                            title: 'Search',
+                            image: 'icon.png',
+                            click: function(){
+                                $('#demo1').html('Clicked : Search !');
+                            }
+                        }]
+                });  
+                
+                $('#demo2').liveMenu({
+                    imagesPath: '_doc_assets/img/',
+                    button: 'right',
+                    position: 'mouse',
+                    menuSize: 240,
+                    layout: 'rect',
+                    tooltip:{
+                        gradient: '#2e2e2e 0%,#424242 100%',
+                        arrowColor: '#333333',
+                        color: '#DDD'
+                    },
+                    items:[{
+                            title: 'Twitter',
+                            image: 'icon.png'
+                        },{
+                            title: 'Facebook',
+                            image: 'icon.png'
+                        },{
+                            title: 'Google +',
+                            image: 'icon.png'
+                        },{
+                            title: 'Picasa',
+                            image: 'icon.png'
+                        },{
+                            title: 'R.S.S',
+                            image: 'icon.png'
+                        },{
+                            title: 'Deviant Art',
+                            image: 'icon.png'
+                        }]
+                });
+                
+                $('#demo3').liveMenu({
+                    imagesPath: '_doc_assets/img/',
+                    button: 'right',
+                    position: 'mouse',
+                    menuSize: 70,
+                    tooltip:{
+                        gradient: '#bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%',
+                        arrowColor: '#72aa00',
+                        color: '#0e2901',
+                        radius: 5
+                    },
+                    items:[{
+                            title: 'Twitter',
+                            image: 'icon.png'
+                        },{
+                            title: 'Facebook',
+                            image: 'icon.png'
+                        },{
+                            title: 'Google +',
+                            image: 'icon.png'
+                        },{
+                            title: 'Picasa',
+                            image: 'icon.png'
+                        },{
+                            title: 'R.S.S',
+                            image: 'icon.png'
+                        },{
+                            title: 'Deviant Art',
+                            image: 'icon.png'
+                        }]
+                });              
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="container">
+            <header  id="pwhat">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#pwhat" class="selected">What is it ?</a></li>
+                        <li><a href="#pdemos">Demonstrations</a></li>
+                        <li><a href="#pinit">Initialization</a></li>
+                        <li><a href="#poptions">Parameters</a></li>
+                        <li><a href="#pmethods">Methods</a></li>
+                        <li><a href="http://codecanyon.net/user/loopus/portfolio" target="_blank">Other plugins</a></li>
+                    </ul>
+                </div>
+                <h1 id="topOfPage">jQuery <strong>Live Menu</strong></h1>
+            </header>
+            <div id="main">
+                <h2>What is it ?</h2>
+                <div class="intro">
+                    <p>
+                        <strong>jQuery Live Menu</strong> is a jQuery plugin that allows you to create easily nice and animated menus.
+                    </p>
+                    <p>
+                        Menu is opened on <strong>left or right click</strong> on the defined target. You can <strong>customize layout, effects and the tooltip design</strong> by jQuery parameters .                    
+                    </p>
+                    <p style="padding-right: 10px; font-size: 28px; float: right; color: white;">Just right click on this panel to test me</p>
+                    <ul>
+                        <li>
+                            Very easy to use : <strong>$('#target').liveMenu()</strong>
+                        </li>
+                        <li>
+                            <strong>Customize</strong> effects, speeds and delays
+                        </li>
+                        <li>
+                            <strong>Tooltips are positioned intelligently</strong> and they are fully customizable
+                        </li>
+                        <li>
+                            <strong>Smart browsers compatibility</strong> : more or less effects, but still functional !
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Important :</strong> The icons are not sold with the plugin, they are only there for the example. <br/>
+                        <strong>Icons examples credits :</strong> <a href="http://www.pixeden.com" target="_blank">Pixeden</a> - <a href="http://www.webappers.com" target="_blank">WebAppers.com</a> - <a href="http://simekonelove.deviantart.com">Simekonelove</a>
+                    </p>
+                </div>    
+
+
+                <h2 id="pdemos">Demonstrations :</h2>
+                <div>
+
+                    <h3>Left click :</h3>
+                    <p style="text-align: center;"><a id="demo1" href="javascript:">Left click Demo</a></p>
+                    <a href="javascript: " onclick="viewCode(this);" class="linkCode">View source code</a>
+                    <div class="code">
+                        <p><strong>HTML Code :</strong></p>
+                        <pre>
+&lt;a id="demo1" href="javascript:"&gt;Left click Demo&lt;/a&gt;
+                        </pre>
+                        <p><strong>JS Code :</strong></p>
+                        <pre>
+$('#demo1').liveMenu({
+    items:[{
+            title: 'Share this by email',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Email !');
+            }
+        },{
+            title: 'Stats',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Stats !');
+            }
+        },{
+            title: 'Share this',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Share !');
+            }
+        },{
+            title: 'More informations',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Informations !');
+            }
+        },{
+            title: 'Download this',
+            image: 'icon.png',
+            click: function(){
+                $('#demo1').html('Clicked : Download !');
+            }
+        },{
+            title: 'View portfolio',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Portfolio !');
+            }
+        },{
+            title: 'Modify this',
+            image: 'icon.png',
+            click: function(){ 
+                $('#demo1').html('Clicked : Modify !');
+            }
+        },{
+            title: 'Search',
+            image: 'icon.png',
+            click: function(){
+                $('#demo1').html('Clicked : Search !');
+            }
+        }]
+});                     
+                        </pre>
+                    </div>
+                    <hr class="clear"/>
+                    <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a> 
+
+                    <h3>Right click and rect layout :</h3>
+                    <div id="demo2"></div>
+                    <a href="javascript: " onclick="viewCode(this);" class="linkCode">View source code</a>
+                    <div class="code">
+                        <p><strong>HTML Code :</strong></p>
+                        <pre>
+&lt;div id="demo2" &gt;&lt;/div&gt;
+                        </pre>
+                        <p><strong>JS Code :</strong></p>
+                        <pre>
+ $('#demo2').liveMenu({
+    button: 'right',
+    position: 'mouse',
+    menuSize: 80,
+    tooltip:{
+        gradient: '#2e2e2e 0%,#424242 100%',
+        arrowColor: '#333333',
+        color: '#DDD',
+        radius: 5
+    },
+    items:[{
+        title: 'Twitter',
+        image: 'icon.png'
+    },{
+        title: 'Facebook',
+        image: 'icon.png'
+    },{
+        title: 'Google +',
+        image: 'icon.png'
+    },{
+        title: 'Picasa',
+        image: 'icon.png'
+    },{
+        title: 'R.S.S',
+        image: 'icon.png'
+    },{
+        title: 'Deviant Art',
+        image: 'icon.png'
+    }]
+});
+                        </pre>
+                    </div>
+                </div>
+                <hr class="clear"/>
+                <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a>
+                <div>
+                    <h3>Right Click and circle layout :</h3>
+                    <div id="demo3"></div>
+                    <a href="javascript: " onclick="viewCode(this);" class="linkCode">View source code</a>
+                    <div class="code">
+                        <p><strong>JS Code :</strong></p>
+                        <p><strong>HTML Code :</strong></p>
+                        <pre>
+&lt;div id="demo3" &gt;&lt;/div&gt;
+                        </pre>
+                        <pre>
+$('#demo3').liveMenu({
+    button: 'right',
+    position: 'mouse',
+    menuSize: 70,
+    tooltip:{
+        gradient: '#bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%',
+        arrowColor: '#72aa00',
+        color: '#0e2901',
+        radius: 5
+    },
+    items:[{
+            title: 'Twitter',
+            image: 'icon.png'
+        },{
+            title: 'Facebook',
+            image: 'icon.png'
+        },{
+            title: 'Google +',
+            image: 'icon.png'
+        },{
+            title: 'Picasa',
+            image: 'icon.png'
+        },{
+            title: 'R.S.S',
+            image: 'icon.png'
+        },{
+            title: 'Deviant Art',
+            image: 'icon.png'
+        }]
+});
+                        </pre>
+                    </div>
+                </div>
+                <hr class="clear"/>
+                <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a>
+
+                <h2 id="pinit">Initialization</h2>
+                <p>
+                    To import jQuery Live Menu, just include the css and the js file after jquery, in the head :
+                </p>
+                <pre>
+    &lt;head&gt;
+    ...
+        &lt;script src="js/jquery-1.6.4.min.js"&gt;&lt;/script&gt;
+        &lt;link href="<strong>css/jquery.liveMenu.css</strong>" rel="stylesheet" /&gt;
+        &lt;script src="<strong>js/jquery.liveMenu.js</strong>"&gt;&lt;/script&gt;
+    ...
+    &lt;/head&gt;
+                </pre>
+                <p>
+                    Then use it like any jQuery plugin :
+                </p>
+                <pre>
+    &lt;script&gt;
+        $(document).ready(function(){
+            <strong>$(body).liveMenu({ ... });</strong>
+        });
+    &lt;/script&gt;
+                </pre>
+                <hr class="clear"/>
+                <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a>
+
+
+                <h2 id="poptions">Parameters :</h2>
+                <p>
+                    This is the plugin parameters list :
+                </p>
+                <pre>
+<span>// target must be a container (div,body,p,a ...)</span>$('#target').liveMenu(                          
+{                   
+<span>// <font>String</font> | path to the images</span>    imagesPath: 'icons/',                  
+<span>// <font>"left" or "right"</font> | mouse button to open the menu</span>    button 'right',   
+<span>// <font>"fixed" or "mouse"</font> | menu position</span>    position: 'mouse',        
+<span>// <font>Array</font> | list of the menu items</span>    items:[
+
+    <strong>/* Examples of items */</strong>
+    {
+<span>// <font>String</font> | The item title</span>        title: 'Twitter',                                           
+<span>// <font>String</font> | Image file name</span>        image: 'twitter02_dark.png',                
+<span>// <font>String</font> URL | Link, can be let empty</span>        href: 'http://www.twitter.com',
+<span>// <font>"_self" or "_blank"</font> | the link target</span>        target '_blank',
+<span>// <font>Method</font> | Executed on the item click</span>        clicked: function(){}              
+    },{
+        title: 'Facebook',
+        image: 'facebook_dark.png',
+        click: function() { alert('FB clicked !');}   
+    }
+    <strong>/* end of items */</strong>
+
+],                                   
+<span>// <font>"rect" or "circle"</font> | sets the menu layout</span>    layout: 'circle',                           
+<span>// <font>Int</font> | rect width or circle radius (depends of layout)</span>    menuSize: 100,                              
+<span>// <font>Float between 0 and 1</font> | default opacity of the items</span>    opacity: 1,                                 
+<span>// <font>Float between 0 and 1</font> | default scale of the items</span>    scale: 0.7,                                 
+    behind:{                
+<span>// <font>Float between 0 and 1</font> | opacity of the items while they are behind</span>        opacity: 0.8,                           
+<span>// <font>Float between 0 and 1</font> | scale of the items while they are behind</span>        scale: 0.6                              
+    },
+    hide: {
+<span>// <font>Int</font> | hide speed of the items while the menu is closing</span>        speed: 300,                             
+<span>// <font>Int</font> | delay between each items fade while the menu is closing</span>        delay: 50                               
+    },
+    hover: {
+<span>// <font>Int</font> | speed of the item hover effect</span>        speed: 170,                             
+<span>// <font>Int</font> | opacity of the item hover effect</span>        opacity: 1                              
+    },
+    show: {
+<span>// <font>Int</font> | hide speed of the items while the menu is showing</span>        speed: 150,                             
+<span>// <font>Int</font> | delay between each items fade while the menu is showing</span>        delay: 50                               
+    },
+    tooltip: {
+<span>// <font>Hex color</font> | tooltip arrow background color</span>        arrowColor: '#666',                     
+<span>// <font>Hex color</font> | tooltip text color</span>        color: '#333',                          
+<span>// <font>Gradient</font> | tooltip background gradient</span>        gradient: '#FFFFFF 0%, #666666 100%',   
+<span>// <font>Int</font> | tooltip radius</span>        radius: 3,                              
+<span>// <font>Int</font> | delay before showing tooltip</span>        delay: 800,                             
+<span>// <font>Int</font> | tooltip show and hide speed</span>        speed: 200                              
+    },
+<span>// <font>Method</font> | executed while menu is showed</span>    onShow: function(){},                       
+<span>// <font>Method</font> | executed while menu is closed</span>    onClose: function(){}                       
+});
+                </pre>
+
+                <p>You can change them after initialisation like this : </p>
+                <pre>
+<span style="width: 410px;">// sets the items opacity</span>    $('#target').data('liveMenu').settings.opacity = 0.5;
+<span style="width: 410px;">// refresh the menu</span>    $('#target').data('liveMenu').update();
+                </pre>
+                <hr class="clear">
+                <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a>
+
+                <h2 id="pmethods">Methods :</h2>
+                <p>
+                    You can interact with the plugin :
+                </p>
+                <pre>
+<span>// open the menu</span>    $('#target').data('liveMenu').showMenu();
+<span>// close the menu</span>    $('#target').data('liveMenu').hideMenu();
+                </pre>
+            </div>       
+            <hr class="clear"/>
+            <a href="#topOfPage" class="slideTopLink"><img src="_doc_assets/img/arrowTop.png" alt="Slide to the top" /> Slide to the top</a>
+        </div>       
+        <footer>
+            <p><a href="http://codecanyon.net/user/loopus" target="_blank">&copy; 2012 - Loopus</a></p>
+        </footer>
+
+    </body>
+</html>

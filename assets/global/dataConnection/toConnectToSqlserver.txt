@@ -1,0 +1,2 @@
+Voor jennis: connecteren met sqlserver: dll drivers toevoegen aan php/ext
+en sql server native client installeren.
