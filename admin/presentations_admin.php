@@ -113,26 +113,6 @@
 					<!-- End: life time stats -->
 				</div>
 			</div>
-            <div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                            <h4 class="modal-title">Nieuwe Presentations. Kies hoe je ze maakt.</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div class="btn-group btn-group btn-group-justified chooseNewPresentationType">
-                                <a href="presentation_builder.php?type=1" class="btn blue">
-                                    EIGEN DOC </a>
-                                <a href="#" class="btn yellow">
-                                    INDEPEN BUILDER </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.modal-content -->
-                </div>
-                <!-- /.modal-dialog -->
-            </div>
 			<!-- END PAGE CONTENT-->
 		</div>
 	</div>

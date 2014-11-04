@@ -563,7 +563,7 @@ var Index = function () {
                     var unique_id = $.gritter.add({
                         position: 'top-left',
                         // (string | mandatory) the heading of the notification
-                        title: '<a href="/admin/page_contact.php" target="_blank">Welkom op indepen!</a>',
+                        title: '<a href="/admin/page_contact.php" target="_blank">Welkom op OpenSlides!</a>',
                         // (string | mandatory) the text inside the notification
                         text: 'De is een beta versie. Elke mening, feedback of idee is welkom via onze contactpagina.',
                         // (string | optional) the image to display on the left

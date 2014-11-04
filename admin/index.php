@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 </a>
-                <a target="_blank" href="https://twitter.com/Libarosoftware">
+                <a target="_blank" href="https://twitter.com/bertclybouw">
                 <div class="tile double bg-grey-cascade">
                     <div class="tile-body">
                         <img src="../assets/admin/pages/media/profile/photo2.jpg" width="50px" alt="" class="pull-right">
@@ -192,132 +192,80 @@
             <div id="getStarted">
                 <div class="services-block content content-center" id="services">
                     <div class="container">
-                        <h2>Wat <strong>kan het?</strong></h2>
+                        <h2><strong>What</strong> is it?</h2>
 
                         <div class="row">
                             <div class="col-md-3 col-sm-3 col-xs-12 item">
-                                <i class="fa fa-pencil"></i>
-                                <a href="#solvePresentationManual" class="scroll"><h3>Oefeningen oplossen</h3></a>
-                                <p>Voor leerlingen</p>
+                                <i class="fa fa-file-pdf-o"></i>
+                                <a href="#solvePresentationManual" class="scroll"><h3>Online presentations</h3></a>
+                                <p>Save your presentation as PDF<br/>
+                                and upload it</p>
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-12 item">
-                                <i class="fa fa-barcode"></i>
-                                <a href="#buildPresentationManual" class="scroll"><h3>Digitaliseren</h3></a>
-                                <p>PDF bestanden omzetten<br/>in Presentations</p>
+                                <i class="fa fa-users"></i>
+                                <a href="#buildPresentationManual" class="scroll"><h3>Choose your public</h3></a>
+                                <p>Just as Dropbox you decide<br/> who has access</p>
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-12 item">
-                                <i class="fa fa-clock-o"></i>
-                                <h3>Taken</h3>
-                                <p>Verdeel oefeningen<br/>onder leerlingen</p>
+                                <i class="fa fa-refresh"></i>
+                                <h3>Interactive presentations</h3>
+                                <p>With your audience</p>
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-12 item">
                                 <i class="fa fa-bar-chart-o"></i>
-                                <h3>Statistieken</h3>
-                                <p>Volg ieders ontwikkeling<br/> op de voet</p>
+                                <h3>Statistics</h3>
+                                <p>Get a reputation <br/>with quality slides</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <section class="PresentationManual" id="solvePresentationManual">
+                <section class="OpenSlidesManual" id="buildPresentationManual">
                     <div class="container">
                         <div class="row">
                             <div class="title animate fadeIn animated">
-                                <h2>Oefening <strong>oplossen</strong></h2>
+                                <h2><strong>Upload</strong> a Presentation </h2>
                             </div>
                             <div class="space"></div>
                             <div class="com-sec">
-                                <div class="left-text animate fadeIn animated"><span class="title">Zoek een geschikte Presentation</span>
+                                <div class="left-text animate fadeIn animated"><span class="title">Press on 'New Presentation'</span>
 
                                     <div class="clear"></div>
-                                    <p>Alle Presentations zijn gedeeld door leekrachten. Aan de hand van beoordelingen en views kan u weten hoe goed elke oefening is. </p>
-                                    <a href="presentations.php">Presentations</a></div>
+                                    <p>All presentations are uploaded by our community.</p>
+                                    <a href="presentation_builder.php">New Presentation</a></div>
                                 <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
                                 </div>
-                                <div class="press-img image"><a href="presentations.php"><img class="animate fadeIn animated"
-                                                                                      src="../assets/global/img/manual/Presentations.JPG"
-                                                                                      alt=""></a></div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="com-sec">
-                                <div class="press-img image"><img class="animate fadeIn animated"
-                                                                                      src="../assets/global/img/manual/Presentation_detailpage.JPG"
-                                                                                      alt=""></div>
-                                <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
-                                </div>
-                                <div class="right-text  animate fadeIn animated"><span class="title">Klik rechtsboven op 'oefening maken'</span>
-
-                                    <div class="clear"></div>
-
-                                    <p>Dit overzicht geeft meer details over de Presentation die u wilt oplossen. </p>
-                                    </div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="com-sec">
-                                <div class="left-text animate fadeIn animated"><span class="title">
-                                            Typ de antwoorden in de invulvakken en gebruik de tools
-                                        </span>
-
-                                    <div class="clear"></div>
-
-                                    <p>De tools worden zichtbaar door rechts te klikken. Klik regelmatig op 'opslaan' zodat niets verloren gaat. </p>
-                                    </div>
-                                <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
-                                </div>
-                                <div class="press-img image"><img class="animate fadeIn animated"
-                                                                                      src="../assets/global/img/manual/Presentation_solver.JPG"
-                                                                                      alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="PresentationManual" id="buildPresentationManual">
-                    <div class="container">
-                        <div class="row">
-                            <div class="title animate fadeIn animated">
-                                <h2>Presentation <strong>maken</strong></h2>
-                            </div>
-                            <div class="space"></div>
-                            <div class="com-sec">
-                                <div class="left-text animate fadeIn animated"><span class="title">Klik op 'Nieuwe Presentation'</span>
-
-                                    <div class="clear"></div>
-                                    <p>Alle oefeningen van Presentation komen van de community. Dus we steunen op u. </p>
-                                    <a href="presentation_builder.php?type=1">Nieuwe Presentation</a></div>
-                                <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
-                                </div>
-                                <div class="press-img image"><a href="presentation_builder.php?type=1"><img class="animate fadeIn animated"
-                                                                                        src="../assets/global/img/manual/new_presentation2.JPG"
-                                                                                        alt=""></a></div>
+                                <div class="press-img image"><a href="presentation_builder.php"><img class="animate fadeIn animated"
+                                                                                                      src="../assets/global/img/manual/new_presentation.jpg"
+                                                                                                      alt=""></a></div>
                             </div>
                             <div class="clear"></div>
                             <div class="com-sec">
                                 <div class="press-img image">
                                     <img class="animate fadeIn animated"
-                                         src="../assets/global/img/manual/Presentation_builder1.JPG" alt="">
+                                         src="../assets/global/img/manual/select_file.JPG" alt="">
                                 </div>
                                 <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
                                 </div>
-                                <div class="right-text  animate fadeIn animated"><span class="title">Selecteer het PDF bestand dat u wilt omzetten naar een Presentation.</span>
+                                <div class="right-text  animate fadeIn animated"><span class="title">Select your presentation in PDF format.</span>
 
                                     <div class="clear"></div>
-                                    <p>Dit kan gaan van oefenblaadjes tot cursussen. </p>
+                                    <p>You can upload Keynote or Powerpoint presentations if you save them as PDF. </p>
                                 </div>
                             </div>
                             <div class="clear"></div>
                             <div class="com-sec">
                                 <div class="left-text animate fadeIn animated"><span class="title">
-                                                Teken tekstvakken op het document.
+                                                Press 'Edit' and fill in properties of the presentation.
                                             </span>
 
                                     <div class="clear"></div>
 
-                                    <p>Als u ze leeg laat kunnen ze ingevuld worden door de leerlingen. Als u ze zelf
-                                        invult kan de leerling deze lezen maar niet aanpassen. </p>
+                                    <p>The better you fill this in, the better your presentation can be found. </p>
                                 </div>
                                 <div class="divider"><img src="../assets/global/img/manual/timeline-divider.png" alt="">
                                 </div>
                                 <div class="press-img image"><img class="animate fadeIn animated"
-                                                                  src="../assets/global/img/manual/Presentation_builder.JPG"
+                                                                  src="../assets/global/img/manual/presentation_settings.JPG"
                                                                   alt=""></div>
                             </div>
                         </div>

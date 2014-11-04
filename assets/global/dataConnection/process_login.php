@@ -10,7 +10,6 @@ if (isset($_POST['username'], $_POST['password'])) {
 
     if (login($username, $password) == true) {
         // Login success
-//        $path = 'http://' . $_SERVER["HTTP_HOST"] . '/indepen/admin/index.php';
 //       header('Location: ' . $path);
         //exit(0);
         echo '{ "message": "loginOK"}';

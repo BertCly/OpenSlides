@@ -24,15 +24,15 @@
 'use strict';
 
 var DEFAULT_URL = '';//'../userData/courses/metenmetlat.pdf';
-var DEFAULT_SCALE = 'auto';
-var DEFAULT_SCALE_DELTA = 1.1;
+var DEFAULT_SCALE = 'page-fit';
+var DEFAULT_SCALE_DELTA ='page-fit';
 var UNKNOWN_SCALE = 0;
 var CACHE_SIZE = 20;
 var CSS_UNITS = 96.0 / 72.0;
 var SCROLLBAR_PADDING = 40;
 var VERTICAL_PADDING = 5;
 var MAX_AUTO_SCALE = 1.25;
-var MIN_SCALE = 0.25;
+var MIN_SCALE = 1;
 var MAX_SCALE = 4.0;
 var VIEW_HISTORY_MEMORY = 20;
 var SCALE_SELECT_CONTAINER_PADDING = 8;
@@ -308,7 +308,7 @@ var Cache = function cacheCache(size) {
 
 var DEFAULT_PREFERENCES = {
   showPreviousViewOnLoad: true,
-  defaultZoomValue: '100',//edited Bert
+  defaultZoomValue: 'page-fit',//edited Bert
   ifAvailableShowOutlineOnLoad: false,
   enableHandToolOnLoad: false,
   enableWebGL: false
@@ -3435,7 +3435,7 @@ var PDFView = {
     } else if (storedHash) {
       this.setHash(storedHash);
     } else if (scale) {
-      this.setScale(scale, true);
+      this.setScale(DEFAULT_SCALE, true);
       this.page = 1;
     }
 

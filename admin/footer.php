@@ -1,7 +1,7 @@
 <!-- BEGIN FOOTER -->
 <div class="page-footer">
     <div class="page-footer-inner">
-        2014 &copy; OpenSlides, by <a href="https://www.linkedin.com/pub/bert-clybouw/65/6b2/a54" rel="Bert Clybouw" title="Bert Clybouw"> Bert Clybouw</a>
+        2014 &copy; OpenSlides, by <a target="_blank" href="https://www.linkedin.com/pub/bert-clybouw/65/6b2/a54" rel="Bert Clybouw" title="Bert Clybouw"> Bert Clybouw</a>
     </div>
     <div class="page-footer-tools">
 		<span class="go-top">

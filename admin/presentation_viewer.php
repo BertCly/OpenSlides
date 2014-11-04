@@ -1,13 +1,12 @@
-<?php include("header.php"); ?>
+<?php
+include("header.php");
+require ABSPATH . '/vendor/autoload.php';
+?>
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css"/>
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/pdfjs/web/viewer.css"/>
-<link href="../assets/global/plugins/pdfjs/web/locale/locale.properties" type="application/l10n" rel="resource"/>
+<link href="../assets/global/plugins/pdfjs/web/locale/en-GB/viewer.properties" type="application/l10n" rel="resource"/>
 <link href="../assets/global/plugins/jquery-live-menu/css/jquery.liveMenu.css" rel="stylesheet" />
 
-<style>
-    #latDraggable{display: none; z-index: 10000; }
-    #protractor{display: none; z-index: 10000; }
-</style>
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -18,9 +17,8 @@
     <?php
     include("page_header.php");
     include("includes/presentation_build.php");
-
     $userID = $_SESSION['user_id'];
-
+    $sessionID = addLiveSession($presentation->id, $userID);
     ?>
 </div>
 <!-- END HEADER -->
@@ -46,10 +44,16 @@
 				<div class="col-md-12 headEditor">
 					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
 					<h3 class="page-title">
-                        <span id="presentationName"><?php echo $presentation->name; ?></span> <small>Viewer</small><span id="solutionID" class="hidden"><?php echo $solution->ID; ?></span><?php if(isset($assignment)) echo "<span id='assignmentID' class='hidden'> $assignment->ID </span>"; ?>
+                        <span id="presentationName"><?php echo $presentation->name; ?></span> <small>Viewer</small> | <span id="attenders">0</span> attenders
 					</h3>
                     <div class="actions btn-set">
-                        <?php if(!(isset($assignment) && $assignment->DateSubmitted != '')) echo '<a class="btn green" href="presentation_page_edit.php"><i class="fa fa-cogs"></i> Edit</a>' ?>
+                        <span class="top-sessionID-block">
+                            <span class="top-sessionID-info">
+                                Live Session Code: <strong><?php echo $sessionID; ?></strong>
+                            </span>
+                            <i class="fa fa-caret-square-o-right"></i>
+                        </span>
+                        <?php if(!(isset($assignment) && $assignment->DateSubmitted != '')) echo '<a class="btn green" href="presentation_page_edit.php?presentationID='.$presentation->id.'"><i class="fa fa-cogs"></i> Edit</a>' ?>
                     </div>
                     <div id="messageBox"></div>
 				</div>
@@ -79,11 +83,6 @@
                 </div>
                 <?php }
                 else {
-                    echo '
-  <img src="../assets/global/img/tools/centimeter_and_inch_ruler.png" alt="lat" title="lat" class="tool" id="latDraggable"/>
-  <img src="../assets/global/img/tools/protractor.png" alt="geodriehoek" title="geodriehoek" class="tool" id="protractor"/>
-';
-                    echo '<div id="maskLayer"></div>';
                     echo '<div id="pdfViewer">';
 
                     include('pdf_viewer.php');
@@ -126,6 +125,8 @@ jQuery(document).ready(function() {
     Metronic.init(); // init metronic core components
     Layout.init(); // init current layout
     QuickSidebar.init(); // init quick sidebar
+    var attenders = 0;
+    var conn = new WebSocket('ws://localhost:8081');
 
     <?php if($presentation->filePath != '') echo "PDFView.open('../userData/presentations/".$presentation->filePath."', 0);";
    else echo "PDFView.open('helloworld.pdf', 0);"; ?>
@@ -143,6 +144,40 @@ jQuery(document).ready(function() {
             icon: "check" // put icon before the message
         });
     }
+
+    //Listen for the event
+//    document.getElementById('next').addEventListener('click',
+//        function() {
+//            conn.send('next');
+//        });
+    window.addEventListener('pagechange', function pagechange(evt) {
+        var page = evt.pageNumber;
+        if (PDFView.previousPageNumber !== page) {
+            var message = 'page:' + page;
+            conn.send(message);
+        }
+    }, true);
+
+    conn.onmessage = function(e) {
+        console.log(e.data);
+        if (e.data == "newAttender") {
+            attenders = attenders + 1;
+            $("#attenders").text(attenders);
+        }
+        else if (e.data == "lostAttender") {
+            attenders = attenders - 1;
+            $("#attenders").text(attenders);
+        }
+    };
+
+//    conn.onopen = function(e) {
+//        attenders = attenders + 1;
+//        $("#attenders").text(attenders);
+//    };
+//    conn.onclose = function(e) {
+//        attenders = attenders - 1;
+//        $("#attenders").text(attenders);
+//    };
 
 });
 </script>

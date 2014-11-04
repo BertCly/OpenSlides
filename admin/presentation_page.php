@@ -5,7 +5,7 @@
 <link href="../assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.css" rel="stylesheet"/>
 
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/pdfjs/web/viewer.css"/>
-<link href="../assets/global/plugins/pdfjs/web/locale/locale.properties" type="application/l10n" rel="resource"/>
+<link href="../assets/global/plugins/pdfjs/web/locale/en-GB/viewer.properties" type="application/l10n" rel="resource"/>
 
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/jstree/dist/themes/default/style.min.css"/>
 <!-- END PAGE LEVEL STYLES -->
@@ -197,7 +197,7 @@ else addPresentationView($presentationID);
                                                         <div class="form-group">
                                                             <label class="control-label col-md-3">Rating:</label>
                                                             <div class="col-md-9">
-                                                                <p class="form-control-static">
+                                                                <p class="form-control-static ratingTotal" >
                                                                     <?php
                                                                     $avgScore = getAvgReview($presentation->getId());
                                                                     for($i = 1; $i < 6; $i++){

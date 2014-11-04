@@ -2,72 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce477160-ef38-4542-83b1-183f031afa17" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\reader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\db_queries.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\username_checker.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_history.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_products.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\news.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nba.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\students.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\page_news_item.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\extra_500_option1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_credit_memos.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_shipment.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\back-global.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_countries.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_history.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder_withSelectionBox.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_platform.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_corrector.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\timeout-keep-alive.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_reviews.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\jstree_ajax_data.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\getschools.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver_WithSelectionbox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_history.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\example.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\extra_500_option1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_history.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\reader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\page_news_item.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\students.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_credit_memos.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\test.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\oleread.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\idletimeout_keepalive.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_orders.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\example.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nhl.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\assignment.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\recto_naamkaartje_earnieland.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\calendar.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\test.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\pricetable.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseHistory_ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_invoices.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_build.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\basisscholen.xls" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_custom.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\distribute.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\assets\global\img\eraser.cur" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver_WithSelectionBo.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\extra_profile_backup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\db_queries.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_custom.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_shipment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\distribute.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_corrector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\username_checker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_orders.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\news.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_product_reviews.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\pricetable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\back-global.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\assignment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nhl.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\userData\courses\recto_naamkaartje_earnieland.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_order_invoices.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_countries.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\basisscholen.xls" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_builder_withSelectionBox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver_WithSelectionbox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\typeahead_nba.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\ecommerce_products.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseHistory_ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\old_excelimport\getschools.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\timeout-keep-alive.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\demo\jstree_ajax_data.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_build.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\mastersthesis\assets\global\img\eraser.cur" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/course_solve.php" afterPath="$PROJECT_DIR$/admin/includes/course_solve.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseReviews_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentationReviews_ajax.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courses_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentations_ajax.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses.php" afterPath="$PROJECT_DIR$/admin/presentations.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_page_edit.php" afterPath="$PROJECT_DIR$/admin/presentation_page_edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/page_header.php" afterPath="$PROJECT_DIR$/admin/page_header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" />
       <change type="MODIFICATION" beforePath="C:\xampp\htdocs\masterthesis\admin\search.php" afterPath="C:\xampp\htdocs\masterthesis\admin\search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" afterPath="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courses_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentations_ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/menu.php" afterPath="$PROJECT_DIR$/admin/menu.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course.php" afterPath="$PROJECT_DIR$/admin/includes/presentation.php" />
       <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_page.php" afterPath="$PROJECT_DIR$/admin/presentation_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="C:\xampp\htdocs\masterthesis\admin\index_admin.php" afterPath="C:\xampp\htdocs\masterthesis\admin\index_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/page_header.php" afterPath="$PROJECT_DIR$/admin/page_header.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_page_edit.php" afterPath="$PROJECT_DIR$/admin/presentation_page_edit.php" />
       <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_load.php" afterPath="$PROJECT_DIR$/admin/includes/presentation_load.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses_admin.php" afterPath="$PROJECT_DIR$/admin/presentations_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/profile.php" afterPath="$PROJECT_DIR$/admin/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/course_solve.php" afterPath="$PROJECT_DIR$/admin/includes/course_solve.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" afterPath="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\courseReviews_ajax.php" afterPath="$PROJECT_DIR$/admin/includes/presentationReviews_ajax.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_upload.php" afterPath="$PROJECT_DIR$/admin/includes/presentation_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses.php" afterPath="$PROJECT_DIR$/admin/presentations.php" />
       <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\course_solver.php" afterPath="$PROJECT_DIR$/admin/presentation_viewer.php" />
+      <change type="MODIFICATION" beforePath="C:\xampp\htdocs\masterthesis\admin\index_admin.php" afterPath="C:\xampp\htdocs\masterthesis\admin\index_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/profile.php" afterPath="$PROJECT_DIR$/admin/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/menu.php" afterPath="$PROJECT_DIR$/admin/menu.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\courses_admin.php" afterPath="$PROJECT_DIR$/admin/presentations_admin.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course_upload.php" afterPath="$PROJECT_DIR$/admin/includes/presentation_upload.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\mastersthesis\admin\includes\course.php" afterPath="$PROJECT_DIR$/admin/includes/presentation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="indepen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,57 +131,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/menu.php">
+      <file leaf-file-name="attend.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/attend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="49" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="1513">
+            <state line="145" column="14" selection-start="5620" selection-end="5686" vertical-scroll-proportion="-19.153847" vertical-offset="1967" max-vertical-offset="2839">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presentations.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/presentations.php">
+      <file leaf-file-name="pdf_viewer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/pdf_viewer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="157" selection-start="5654" selection-end="5668" vertical-scroll-proportion="-7.8076925" vertical-offset="1854" max-vertical-offset="4607">
-              <folding>
-                <marker date="1413743263399" expanded="true" signature="5452:6329" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="5508:5720" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="5767:6298" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="5804:6009" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="5906:5971" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="6163:6263" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="9397:9425" placeholder="..." />
-                <marker date="1413743263399" expanded="true" signature="10076:10303" placeholder="..." />
-              </folding>
+            <state line="125" column="24" selection-start="7494" selection-end="7494" vertical-scroll-proportion="0.43849492" vertical-offset="1822" max-vertical-offset="6222">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/profile.php">
+      <file leaf-file-name="presentation_viewer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/presentation_viewer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="460" column="100" selection-start="24168" selection-end="24168" vertical-scroll-proportion="0.3003663" vertical-offset="7656" max-vertical-offset="8806">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="167" column="35" selection-start="7148" selection-end="7148" vertical-scroll-proportion="-18.23077" vertical-offset="2365" max-vertical-offset="3264">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queries.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/queries.php">
+      <file leaf-file-name="chat-server.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/chat-server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="6" selection-start="1794" selection-end="2027" vertical-scroll-proportion="-12.846154" vertical-offset="652" max-vertical-offset="5848">
-              <folding>
-                <element signature="n#addPresentationReview#0;n#!!top" expanded="false" />
-                <element signature="n#getAvgReview#0;n#!!top" expanded="false" />
-                <marker date="1413720076165" expanded="true" signature="1062:1103" placeholder="SELECT * FRO..tblUsers..." />
-                <marker date="1413720076165" expanded="true" signature="1213:1327" placeholder="SELECT TOP(2..tblNotifications..." />
-                <marker date="1413720076165" expanded="true" signature="1439:1685" placeholder="SELECT TOP(2..." />
-                <marker date="1413720076165" expanded="true" signature="12683:12710" placeholder="select * fro..tblCategories..." />
-              </folding>
+            <state line="14" column="8" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/MyApp/chat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="28" selection-start="712" selection-end="712" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="833">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,57 +194,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/course_page.php" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/calendar.js" />
-        <option value="$PROJECT_DIR$/admin/calendar.php" />
-        <option value="$PROJECT_DIR$/assets/global/scripts/metronic.js" />
-        <option value="$PROJECT_DIR$/admin/user.php" />
-        <option value="$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/page_calendar.html" />
-        <option value="$PROJECT_DIR$/admin/faq.php" />
-        <option value="$PROJECT_DIR$/admin/course_solver.php" />
-        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/assignment-student.js" />
-        <option value="$PROJECT_DIR$/admin/course_corrector.php" />
-        <option value="$PROJECT_DIR$/admin/login.php" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/css/index.css" />
-        <option value="$USER_HOME$/Dropbox/libaro/Projecten/Indepen/index.html" />
-        <option value="$PROJECT_DIR$/assets/global/dataConnection/logout.php" />
-        <option value="$PROJECT_DIR$/admin/includes/logout.php" />
-        <option value="$PROJECT_DIR$/admin/search.php" />
-        <option value="$PROJECT_DIR$/admin/courses.php" />
-        <option value="$PROJECT_DIR$/admin/news.php" />
-        <option value="$PROJECT_DIR$/admin/course_page_edit.php" />
-        <option value="$PROJECT_DIR$/admin/includes/courses_ajax.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/admin/assignment.php" />
-        <option value="$PROJECT_DIR$/admin/includes/course_solve.php" />
-        <option value="$PROJECT_DIR$/admin/header.php" />
         <option value="$PROJECT_DIR$/assets/admin/layout/scripts/layout.js" />
         <option value="$PROJECT_DIR$/admin/page_header.php" />
         <option value="$PROJECT_DIR$/admin/includes/presentation.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/includes/presentation_build.php" />
         <option value="$PROJECT_DIR$/admin/includes/presentation_upload.php" />
-        <option value="$PROJECT_DIR$/admin/presentation_viewer.php" />
-        <option value="$PROJECT_DIR$/admin/presentation_page.php" />
         <option value="$PROJECT_DIR$/assets/global/plugins/jquery-validation/js/jquery.validate.js" />
         <option value="$PROJECT_DIR$/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" />
-        <option value="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
         <option value="$PROJECT_DIR$/assets/admin/pages/scripts/ecommerce-products-edit.js" />
         <option value="$PROJECT_DIR$/assets/admin/pages/scripts/table-ajax.js" />
         <option value="$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js" />
         <option value="$PROJECT_DIR$/assets/global/scripts/datatable.js" />
         <option value="$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php" />
-        <option value="$PROJECT_DIR$/assets/admin/layout/css/custom.css" />
         <option value="$PROJECT_DIR$/admin/presentation_page_edit.php" />
         <option value="$PROJECT_DIR$/admin/users.php" />
         <option value="$PROJECT_DIR$/admin/includes/presentations_ajax.php" />
-        <option value="$PROJECT_DIR$/admin/presentations_admin.php" />
         <option value="$PROJECT_DIR$/assets/global/scripts/datatable_presentations.js" />
         <option value="$PROJECT_DIR$/admin/styleCustomizer.php" />
-        <option value="$PROJECT_DIR$/admin/menu.php" />
-        <option value="$PROJECT_DIR$/admin/presentations.php" />
         <option value="$PROJECT_DIR$/admin/includes/userSettingsForm.php" />
         <option value="$PROJECT_DIR$/admin/profile.php" />
+        <option value="$PROJECT_DIR$/admin/login.php" />
+        <option value="$PROJECT_DIR$/admin/presentations.php" />
+        <option value="$PROJECT_DIR$/admin/presentations_admin.php" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/index.css" />
+        <option value="$PROJECT_DIR$/assets/admin/pages/scripts/index.js" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/process_login.php" />
+        <option value="$PROJECT_DIR$/admin/quick_sidebar.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/contact.php" />
+        <option value="$PROJECT_DIR$/admin/footer.php" />
+        <option value="$PROJECT_DIR$/admin/menu.php" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/rm/viewer.properties" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/it/viewer.properties" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/nl/viewer.properties" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/af/viewer.properties" />
+        <option value="$PROJECT_DIR$/admin/presentation_page.php" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/en-GB/viewer.properties" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pdfjs/web/viewer.js" />
+        <option value="$PROJECT_DIR$/admin/pdf_viewer_attend.php" />
+        <option value="$PROJECT_DIR$/assets/admin/layout/css/custom.css" />
+        <option value="$PROJECT_DIR$/assets/global/dataConnection/queries.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/admin/includes/chat.php" />
+        <option value="$PROJECT_DIR$/admin/includes/bin/my-server.php" />
+        <option value="$PROJECT_DIR$/admin/includes/bin/chat-server.php" />
+        <option value="$PROJECT_DIR$/MyApp/chat.php" />
+        <option value="$PROJECT_DIR$/src/MyApp/chat.php" />
+        <option value="$PROJECT_DIR$/bin/chat-server.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/admin/presentation_viewer.php" />
+        <option value="$PROJECT_DIR$/admin/attend.php" />
+        <option value="$PROJECT_DIR$/admin/pdf_viewer.php" />
       </list>
     </option>
   </component>
@@ -340,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="userData" />
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,6 +348,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MasterThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterthesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -370,8 +378,8 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="SearchEverywhereHistory" value="sessions&#10;custom&#10;ajaxa&#10;ajax&#10;queri&#10;menu&#10;search&#10;index&#10;profile&#10;logout&#10;scrollto&#10;queries&#10;profil&#10;querie&#10;que&#10;user.&#10;metronic&#10;calendar.js&#10;confi&#10;&gt;&#10;db&#10;quer&#10;pdf&#10;page-hea&#10;web.config&#10;config.&#10;sess&#10;uplo&#10;login.ph&#10;course_page_edit&#10;load&#10;selec&#10;viewer.j&#10;ruler.&#10;custo&#10;viewer.h&#10;pdf.&#10;profile-&#10;profile-img&#10;course_page&#10;page_&#10;layout.css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistory" value="viewer.js&#10;viewerjs&#10;push-server&#10;custom&#10;quer&#10;custom.&#10;login.p&#10;sessions&#10;ajaxa&#10;ajax&#10;queri&#10;menu&#10;search&#10;index&#10;profile&#10;logout&#10;scrollto&#10;queries&#10;profil&#10;querie&#10;que&#10;user.&#10;metronic&#10;calendar.js&#10;confi&#10;&gt;&#10;db&#10;pdf&#10;page-hea&#10;web.config&#10;config.&#10;sess&#10;uplo&#10;login.ph&#10;course_page_edit&#10;load&#10;selec&#10;viewer.j&#10;ruler.&#10;custo&#10;viewer.h&#10;pdf.&#10;profile-&#10;profile-img&#10;course_page&#10;page_&#10;layout.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../earnieland" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -385,18 +393,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\masterthesis\admin" />
+      <recent name="C:\xampp\htdocs\masterthesis\assets\global\img\manual" />
       <recent name="C:\xampp\htdocs\masterthesis\assets\global\scripts" />
       <recent name="C:\xampp\htdocs\masterthesis\assets\admin\layout\img" />
       <recent name="C:\xampp\htdocs\indepen\admin" />
-      <recent name="C:\xampp\htdocs\indepen\assets\admin\pages\media\profile" />
-      <recent name="C:\xampp\htdocs\indepen\assets\global\img\manual" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\masterthesis\admin\includes" />
-      <recent name="C:\xampp\htdocs\indepen\assets\global\img" />
-      <recent name="C:\xampp\htdocs\indepen\admin\includes" />
-      <recent name="C:\xampp\htdocs\indepen\assets\global\dataConnection" />
-      <recent name="C:\xampp\htdocs\indepen\assets\global" />
+      <recent name="C:\xampp\htdocs\masterthesis" />
+      <recent name="C:\xampp\htdocs\masterthesis\admin" />
+      <recent name="C:\xampp\htdocs\masterthesis\src" />
+      <recent name="C:\xampp\htdocs\masterthesis\MyApp" />
+      <recent name="C:\xampp\htdocs\masterthesis\admin\includes\myApp" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.webApplication">
@@ -484,13 +492,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23160173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18939394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18157615" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19542067" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33874458" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23218143" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19588745" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21255507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -503,6 +510,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28138527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -528,209 +536,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="70" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/page_calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="100" selection-start="11530" selection-end="11530" vertical-scroll-proportion="-4.1764708" vertical-offset="5040" max-vertical-offset="35955" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/table_advanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="95" selection-start="1994" selection-end="2406" vertical-scroll-proportion="-7.6666665" vertical-offset="204" max-vertical-offset="114308" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/assets/admin/pages/scripts/table-advanced.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="0" selection-start="68" selection-end="7113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/ui_tiles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1359" column="12" selection-start="41475" selection-end="46445" vertical-scroll-proportion="0.23780487" vertical-offset="22947" max-vertical-offset="35139" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/Indepen/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="58" selection-start="8498" selection-end="8498" vertical-scroll-proportion="0.7591241" vertical-offset="2370" max-vertical-offset="5593" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/libaro/Projecten/backend Libaro/metronic_v3.2.0/theme/templates/admin/extra_search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1753" column="32" selection-start="55268" selection-end="59891" vertical-scroll-proportion="-4.254902" vertical-offset="29584" max-vertical-offset="52394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7864407" vertical-offset="1581" max-vertical-offset="38403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/scripts/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="584" column="80" selection-start="23429" selection-end="23429" vertical-scroll-proportion="0.33333334" vertical-offset="9687" max-vertical-offset="11322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="53" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.76327115" vertical-offset="199" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/page_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="17" selection-start="5472" selection-end="5472" vertical-scroll-proportion="0.7266082" vertical-offset="1220" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pdf_viewer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/presentation_load.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/presentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../indepen/admin/course_builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="720" selection-end="757" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="6664" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="42" selection-start="8059" selection-end="8059" vertical-scroll-proportion="0.35724533" vertical-offset="3219" max-vertical-offset="6409" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/presentation_build.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="752" selection-end="752" vertical-scroll-proportion="0.58536583" vertical-offset="0" max-vertical-offset="697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/presentation_upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="1" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.40315637" vertical-offset="484" max-vertical-offset="1207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/presentation_viewer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="173" selection-start="2128" selection-end="2128" vertical-scroll-proportion="-11.346154" vertical-offset="572" max-vertical-offset="2669">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/presentation_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="78" selection-start="7987" selection-end="7987" vertical-scroll-proportion="-9.384615" vertical-offset="2391" max-vertical-offset="8432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/presentationReviews_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="982" selection-end="982" vertical-scroll-proportion="-6.769231" vertical-offset="283" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-validation/js/jquery.validate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="304" column="39" selection-start="8958" selection-end="8980" vertical-scroll-proportion="0.0" vertical-offset="4813" max-vertical-offset="21964" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-validation/js/jquery.validate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3940" selection-start="4076" selection-end="4076" vertical-scroll-proportion="0.023943663" vertical-offset="0" max-vertical-offset="710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/ecommerce-products-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="45" selection-start="5902" selection-end="5902" vertical-scroll-proportion="-15.62" vertical-offset="1412" max-vertical-offset="3145" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/wizard-distribute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="48" selection-start="8931" selection-end="8931" vertical-scroll-proportion="-6.86" vertical-offset="2989" max-vertical-offset="3893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/plugins/slider-revolution-slider/documentation/assets/json.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7564" selection-start="7564" selection-end="7564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/table-ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="1445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../indepen/assets/global/dataConnection/ajaxActions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="572" selection-end="572" vertical-scroll-proportion="0.36314848" vertical-offset="137" max-vertical-offset="2618" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/ajaxActions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="1" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="1003" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="29" selection-start="5432" selection-end="5432" vertical-scroll-proportion="4.022222" vertical-offset="2390" max-vertical-offset="5644" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="114" selection-end="124" vertical-scroll-proportion="0.09123435" vertical-offset="0" max-vertical-offset="559">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/presentation_page_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="222" selection-start="12951" selection-end="12951" vertical-scroll-proportion="-11.846154" vertical-offset="3857" max-vertical-offset="6800" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="112" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.82647586" vertical-offset="1833" max-vertical-offset="3434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/scripts/datatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5015" />
+        <state line="135" column="112" selection-start="5544" selection-end="5544" vertical-scroll-proportion="0.82647586" vertical-offset="1833" max-vertical-offset="3434" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/presentations_ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="63" selection-start="4337" selection-end="4337" vertical-scroll-proportion="0.80847955" vertical-offset="1062" max-vertical-offset="1921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/presentations_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="69" selection-start="2781" selection-end="2781" vertical-scroll-proportion="-9.576923" vertical-offset="958" max-vertical-offset="3060" />
+        <state line="97" column="63" selection-start="4337" selection-end="4337" vertical-scroll-proportion="0.80847955" vertical-offset="1062" max-vertical-offset="1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/global/scripts/datatable_presentations.js">
@@ -738,80 +551,269 @@
         <state line="51" column="75" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0" vertical-offset="801" max-vertical-offset="5015" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/session_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="3145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/course_solve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="51" selection-end="113" vertical-scroll-proportion="0.048780486" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/userSettingsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="22" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.69588554" vertical-offset="597" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="460" column="100" selection-start="24168" selection-end="24168" vertical-scroll-proportion="-6.3076925" vertical-offset="7656" max-vertical-offset="8806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/img/logo_icon_openslides.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/img/logo-big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/img/openslides_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="18" selection-start="8039" selection-end="8039" vertical-scroll-proportion="-6.3846154" vertical-offset="820" max-vertical-offset="2329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/quick_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11118" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/styleCustomizer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="72" selection-start="621" selection-end="621" vertical-scroll-proportion="0.41463414" vertical-offset="0" max-vertical-offset="697" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="1" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0" vertical-offset="1238" max-vertical-offset="3893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/pages/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="565" column="102" selection-start="21707" selection-end="21707" vertical-scroll-proportion="0.0" vertical-offset="9364" max-vertical-offset="10268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/process_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="72" selection-start="6408" selection-end="6408" vertical-scroll-proportion="0.0" vertical-offset="2605" max-vertical-offset="5525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="58" selection-start="5036" selection-end="5036" vertical-scroll-proportion="0.0" vertical-offset="2747" max-vertical-offset="3502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="52" selection-start="136" selection-end="136" vertical-scroll-proportion="0.058486238" vertical-offset="0" max-vertical-offset="872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="64" selection-start="3007" selection-end="3007" vertical-scroll-proportion="-19.653847" vertical-offset="475" max-vertical-offset="8534" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/rm/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="273" selection-end="273" vertical-scroll-proportion="0.13513513" vertical-offset="0" max-vertical-offset="2261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/be/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/it/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="19" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.33227345" vertical-offset="964" max-vertical-offset="1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/datatable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="37" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.33125" vertical-offset="984" max-vertical-offset="5015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/ckeditor/lang/it.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14205" selection-start="14350" selection-end="14350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/ckeditor/lang/nl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13737" selection-start="13882" selection-end="13882" vertical-scroll-proportion="0.034764826" vertical-offset="0" max-vertical-offset="489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10994" column="40" selection-start="335341" selection-end="335341" vertical-scroll-proportion="0.8200409" vertical-offset="186446" max-vertical-offset="254558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="26" selection-start="8835" selection-end="8835" vertical-scroll-proportion="0.35084033" vertical-offset="2689" max-vertical-offset="7055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/build/pdf.worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29515" column="5" selection-start="1235604" selection-end="1235604" vertical-scroll-proportion="0.36653388" vertical-offset="501571" max-vertical-offset="720307" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/build/pdf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4922" column="6" selection-start="154970" selection-end="154970" vertical-scroll-proportion="0.36653388" vertical-offset="83490" max-vertical-offset="145707" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/af/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="985" selection-end="985" vertical-scroll-proportion="0.3318584" vertical-offset="275" max-vertical-offset="2771" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/nl/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="992" selection-end="992" vertical-scroll-proportion="0.35176992" vertical-offset="266" max-vertical-offset="2839" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/locale.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="1" selection-start="2989" selection-end="2989" vertical-scroll-proportion="0.3668763" vertical-offset="3497" max-vertical-offset="5406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="77" selection-start="538" selection-end="538" vertical-scroll-proportion="0.25701943" vertical-offset="0" max-vertical-offset="8432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/locale/en-GB/viewer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="974" selection-end="974" vertical-scroll-proportion="0.44469026" vertical-offset="207" max-vertical-offset="2839" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin/layout/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="14" selection-start="6454" selection-end="6454" vertical-scroll-proportion="0.0" vertical-offset="5432" max-vertical-offset="6477" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/presentation_build.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="46" column="60" selection-start="2638" selection-end="2664" vertical-scroll-proportion="0.6944444" vertical-offset="357" max-vertical-offset="1632" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/session_functions.php">
+    <entry file="file://$PROJECT_DIR$/admin/pdf_viewer_attend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="3145">
-          <folding>
-            <marker date="1412947009301" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1412947009301" expanded="true" signature="-1:-1" placeholder="SELECT time ..." />
-            <marker date="1412947009301" expanded="true" signature="-1:-1" placeholder="SELECT TOP 1..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/course_solve.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="51" selection-end="113" vertical-scroll-proportion="0.048780486" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/presentations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="157" selection-start="5654" selection-end="5668" vertical-scroll-proportion="-7.8076925" vertical-offset="1854" max-vertical-offset="4607">
-          <folding>
-            <marker date="1413743263399" expanded="true" signature="5452:6329" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="5508:5720" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="5767:6298" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="5804:6009" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="5906:5971" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="6163:6263" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="9397:9425" placeholder="..." />
-            <marker date="1413743263399" expanded="true" signature="10076:10303" placeholder="..." />
-          </folding>
-        </state>
+        <state line="100" column="34" selection-start="5867" selection-end="5867" vertical-scroll-proportion="2.7777777" vertical-offset="0" max-vertical-offset="6222" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/global/dataConnection/queries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="6" selection-start="1794" selection-end="2027" vertical-scroll-proportion="-12.846154" vertical-offset="652" max-vertical-offset="5848">
-          <folding>
-            <element signature="n#addPresentationReview#0;n#!!top" expanded="false" />
-            <element signature="n#getAvgReview#0;n#!!top" expanded="false" />
-            <marker date="1413720076165" expanded="true" signature="1062:1103" placeholder="SELECT * FRO..tblUsers..." />
-            <marker date="1413720076165" expanded="true" signature="1213:1327" placeholder="SELECT TOP(2..tblNotifications..." />
-            <marker date="1413720076165" expanded="true" signature="1439:1685" placeholder="SELECT TOP(2..." />
-            <marker date="1413720076165" expanded="true" signature="12683:12710" placeholder="select * fro..tblCategories..." />
-          </folding>
-        </state>
+        <state line="380" column="1" selection-start="13624" selection-end="13624" vertical-scroll-proportion="-17.807692" vertical-offset="5997" max-vertical-offset="6596" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/userSettingsForm.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.69588554" vertical-offset="597" max-vertical-offset="1156">
+        <state line="28" column="19" selection-start="1094" selection-end="1101" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/profile.php">
+    <entry file="file://$PROJECT_DIR$/admin/presentations_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="460" column="100" selection-start="24168" selection-end="24168" vertical-scroll-proportion="0.3003663" vertical-offset="7656" max-vertical-offset="8806">
+        <state line="114" column="18" selection-start="4178" selection-end="4178" vertical-scroll-proportion="-0.2777778" vertical-offset="2108" max-vertical-offset="2720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_page_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="8" selection-start="16954" selection-end="17051" vertical-scroll-proportion="0.6560935" vertical-offset="5183" max-vertical-offset="6800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="66" selection-end="66" vertical-scroll-proportion="0.083333336" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../indepen/admin/course_builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="30" selection-start="7493" selection-end="7493" vertical-scroll-proportion="0.360601" vertical-offset="2521" max-vertical-offset="6664" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/chat-server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/MyApp/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="712" selection-end="712" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pdfjs/web/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5550" column="0" selection-start="179500" selection-end="180605" vertical-scroll-proportion="0.0" vertical-offset="94080" max-vertical-offset="99314">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#179563#180597#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/presentation_viewer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="35" selection-start="7148" selection-end="7148" vertical-scroll-proportion="-18.23077" vertical-offset="2365" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/attend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="14" selection-start="5620" selection-end="5686" vertical-scroll-proportion="-19.153847" vertical-offset="1967" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pdf_viewer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="24" selection-start="7494" selection-end="7494" vertical-scroll-proportion="0.43849492" vertical-offset="1822" max-vertical-offset="6222">
+          <folding />
         </state>
       </provider>
     </entry>

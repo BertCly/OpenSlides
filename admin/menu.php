@@ -42,6 +42,13 @@
                         <span class="selected"></span>
                     </a>
                 </li>
+                <li <?php if (strpos($_SERVER['PHP_SELF'], 'attend.php')) echo 'class="active"';?>>
+                    <a href="attend.php">
+                        <i class="fa fa-caret-square-o-right"></i>
+                        <span class="title">Attend presentation</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
                 <li <?php if (strpos($_SERVER['PHP_SELF'], 'profile.php')) echo 'class="active"';?>>
                     <a href="profile.php">
                         <i class="icon-user"></i>

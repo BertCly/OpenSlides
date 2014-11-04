@@ -49,15 +49,27 @@ function getTaskNotifications($userID) {
 function addNotification($userID, $type, $message, $url = '') {
     global $db;
     $success = $db->insert(
-            'tblNotifications', array(
-        'DateTime' => date('Y-m-d H:i:s'),
-        'Type' => $type,
-        'UserID' => $userID,
-        'Message' => $message,
-        'Url' => $url
-            )
+        'tblNotifications', array(
+            'DateTime' => date('Y-m-d H:i:s'),
+            'Type' => $type,
+            'UserID' => $userID,
+            'Message' => $message,
+            'Url' => $url
+        )
     );
     return $success;
+}
+
+function addLiveSession($presentationID, $userID) {
+    global $db;
+    $id = $db->insert(
+        'tblLiveSessions', array(
+            'CreationDate' => date('Y-m-d H:i:s'),
+            'UserID' => $userID,
+            'PresentationID' => $presentationID
+        )
+    );
+    return $id;
 }
 
 //presentation queries
@@ -73,7 +85,7 @@ function deletePresentation($presentationID) {
         $userID = $_SESSION['user_id'];
     else
         $userID = -1;
-    $db->logEvent('PresentationDeleted', 'Indepen ' . $presentationID . ' deleted', $userID);
+    $db->logEvent('PresentationDeleted', 'Presentation ' . $presentationID . ' deleted', $userID);
 }
 
 
@@ -172,7 +184,7 @@ function createPresentation($presentation) {
             )
     );
     $presentation->setId($db->insert_id);
-    $db->logEvent('PresentationCreated', 'Indepen ' . $db->insert_id . ', "' . $presentation->name . '" created', $presentation->userID);
+    $db->logEvent('PresentationCreated', 'Presentation ' . $db->insert_id . ', "' . $presentation->name . '" created', $presentation->userID);
     return $presentation;
 }
 
@@ -217,7 +229,7 @@ function getPresentation($presentationID) {
     require_once(ABSPATH . '/admin/includes/presentation.php');
     global $db;
     $dbPresentation = $db->get_row(
-            'SELECT * FROM tblPresentations WHERE ID = ' . $presentationID);
+        'SELECT * FROM tblPresentations WHERE ID = ' . $presentationID);
     $presentation = dbPresentationToObject($dbPresentation);
     return $presentation;
 }
@@ -358,6 +370,14 @@ function addFeedback($feedback, $userID) {
     );
     $db->logEvent('FeedbackAdded', 'Feedback sent', $userID, $feedbackID);
 }
-
+function getFeedbacks($userID){
+    global $db;
+    return $db->get_results("Select * from tblFeedbacks WHERE UserID = $userID");
+}
+//sessions
+function getLiveSession($id){
+    global $db;
+    return $db->get_row("SELECT * FROM tblLiveSessions WHERE ID = $id;");
+}
 
 ?>

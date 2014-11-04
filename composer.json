@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-0": {
+            "MyApp": "admin"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "0.3.*"
+    }
+}

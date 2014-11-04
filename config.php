@@ -24,6 +24,6 @@ define("DEFAULT_ROLE", "member");
 
 define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
 
-/** Absolute path to the WordPress directory. */
+/** Absolute path to the home directory. */
 if ( !defined('ABSPATH') )
     define('ABSPATH', dirname(__FILE__) . '/');

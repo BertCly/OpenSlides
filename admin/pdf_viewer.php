@@ -123,7 +123,7 @@
                 <span id="numPages" class="toolbarLabel"></span>
               </div>
               <div id="toolbarViewerRight">
-                <button style="display: none"  id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="13" data-l10n-id="presentation_mode">
+                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="13" data-l10n-id="presentation_mode">
                   <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
                 </button>
 

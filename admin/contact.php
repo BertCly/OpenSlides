@@ -87,22 +87,64 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="space20">
-							</div>
-							<!-- BEGIN FORM-->
-							<form action="#">
-								<h3 class="form-section">Feedback</h3>
-								<p>
-									 Having a good idea? Found something that can be done better? Let me know.
-								</p>
-								<div class="form-group">
-									<textarea id="feedback" class="form-control" rows="3=6" placeholder="Feedback"></textarea>
-								</div>
-								<button type="button" id="addFeedback" class="btn green">Send</button> <span id="sent" style="display: none">Sent</span>
-							</form>
-							<!-- END FORM-->
-						</div>
+                        <div class="col-md-6">
+                            <div class="space20">
+                            </div>
+                            <!-- BEGIN FORM-->
+                            <h3 class="form-section">Feedback</h3>
+                            <p>
+                                Found something? Having an idea?
+                            </p>
+                            <form id="feedbackFormContact" action="#">
+
+                                <div class="form-group">
+                                    <textarea id="feedbackInput" class="form-control" rows="3=6" placeholder="Feedback"></textarea>
+                                </div>
+                                <button type="button" id="addFeedbackContact" class="btn green">Send</button>
+                            </form>
+                            <div  id="sentContact" class="alert alert-success"  style="display: none">
+                                <strong>Sent!</strong> You're awesome
+                            </div>
+                            <h3>Sent feedback</h3>
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th>
+                                        Date
+                                    </th>
+                                    <th>
+                                        Message
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                global $db;
+                                $feedbacks = getFeedbacks($_SESSION['user_id']);
+                                $cnt = 1;
+                                foreach($feedbacks as $feedback){
+                                    echo '<tr>
+                                    <td class="hidden-480">
+                                        '.$cnt.'
+                                    </td>
+                                    <td class="hidden-480">
+                                        '.date_format($feedback->CreationDate, "d/m/Y").'
+                                    </td>
+                                    <td>
+                                        '.$feedback->Feedback.'
+                                    </td>
+                                </tr>';
+                                    $cnt++;
+                                }
+                                ?>
+
+                                </tbody>
+                            </table>
+                            <!-- END FORM-->
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -133,23 +175,25 @@ jQuery(document).ready(function() {
 Layout.init(); // init current layout
 QuickSidebar.init() // init quick sidebar
    ContactUs.init();
-});
 
-$('#addFeedback').click(function() {
-    var feedback = $('#feedback').val();
-
-    $.ajax({
-        type: "POST",
-        url: "../assets/global/dataConnection/ajaxActions.php",
-        data: {action: "addFeedback",
-            feedback: feedback,
-            userID: <?php echo $_SESSION['user_id']; ?>
-        },
-        success: function(result) {
-            $('#sent').show();
-        }
+    $('#addFeedbackContact').click(function() {
+        $.ajax({
+            type: "POST",
+            url: "../assets/global/dataConnection/ajaxActions.php",
+            data: {action: "addFeedback",
+                feedback: $('#feedbackInput').val(),
+                userID: $('#userID').text(),
+                url: document.location.href.match(/[^\/]+$/)[0]
+            },
+            success: function(result) {
+                $('#feedbackFormContact').slideUp();
+                $('#sentContact').show();
+            }
+        });
     });
 });
+
+
 </script>
 <!-- END JAVASCRIPTS -->
 </body>

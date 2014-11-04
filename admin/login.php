@@ -56,7 +56,7 @@ License: All copyright owned by Bert Clybouw
         <!-- BEGIN LOGO -->
         <div class="logo">
             <a href="index.php">
-                <img src="../assets/admin/layout/img/logo.png" alt=""/>
+                <img src="../assets/admin/layout/img/openslides_logo.png" alt=""/>
             </a>
         </div>
         <!-- END LOGO -->

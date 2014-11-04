@@ -217,10 +217,13 @@ form .dbError span.help-block{
     content: "\f005";
     color: #e3cf7a;
 }
-#generalSettingsIndepen .form-control-static{
+.grey-cascade .ratingTotal{
+    color: #b1bdbd;
+}
+#generalSettingsOpenSlides .form-control-static{
     font-size: 17px;
 }
-#generalSettingsIndepen .fa-star{
+#generalSettingsOpenSlides .fa-star{
     color: #95a5a6;
 }
 .headEditor h3{
@@ -324,4 +327,50 @@ form .dbError span.help-block{
     min-height: 48px;
     clear: both;
     overflow: hidden;
+}
+#pdfViewer .toolbar, #findbar, #secondaryToolbar{
+    background-color: #f26532 !important;
+}
+.top-sessionID-info {
+    background: #f9f9f9;
+    color: #595f65;
+    border: solid 1px #ececec;
+    border-radius: 16px !important;
+    float: left;
+    padding: 7px 39px 6px 13px;
+    line-height: 1.42857143;
+}
+.top-sessionID-block {
+    float: left;
+    position: relative;
+    font: 400 13px 'Open Sans', Arial, sans-serif;
+    margin-right: 5px;
+}
+.top-sessionID-info a {
+    color: #595f65;
+}
+.top-sessionID-info-count {
+    float: left;
+}
+.top-sessionID-info-value {
+    border-left: solid 1px #a5aab0;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.top-sessionID-block .fa-caret-square-o-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e84d1c;
+    color: #fff;
+    padding: 10px 10px 8px;
+    border-radius: 16px !important;
+    font-size: 16px;
+}
+/*attend.php*/
+#enterSessioncode{
+    margin-top: 50px;
+}
+#enterSessioncode .btn{
+    margin-top: 20px;
 }
