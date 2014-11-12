@@ -45,24 +45,30 @@ require ABSPATH . '/vendor/autoload.php';
 			<!-- END STYLE CUSTOMIZER -->
 			<!-- BEGIN PAGE HEADER-->
             <?php if(!isset($presentation)){ ?>
-            <div class="form" id="enterSessioncode">
-                <form action="attend.php" class="form-horizontal" method="get" enctype="multipart/form-data">
-                    <div class="form-body">
-                        <div class="input-group">
+                <div class="col-md-12" id="enterSessioncode">
+                    <div class="note note-success">
+                        <h4 class="block">Fill in the sessioncode. (Above the presentation)</h4>
+                        <div class="form">
+                            <form action="attend.php" class="form-horizontal" method="get" enctype="multipart/form-data">
+                                <div class="form-body">
+                                    <div class="input-group">
 											<span class="input-group-addon">
 											<i class="fa fa-caret-square-o-right"></i>
 											</span>
-                            <input name="sessionID" type="text" class="form-control" placeholder="Live session code">
+                                        <input name="sessionID" type="text" class="form-control" placeholder="Live session code">
+                                    </div>
+                                    <button id="attend" type="submit" class="btn blue"><i class="fa fa-caret-square-o-right"></i> Attend
+                                    </button>
+
+                                </div>
+
+                            </form>
+                            <button id="sendButton" class="btn blue"><i class="fa fa-caret-square-o-right"></i> Send
+                            </button>
                         </div>
-                        <button id="attend" type="submit" class="btn blue"><i class="fa fa-caret-square-o-right"></i> Attend
-                        </button>
-
                     </div>
+                </div>
 
-                </form>
-                <button id="sendButton" class="btn blue"><i class="fa fa-caret-square-o-right"></i> Send
-                </button>
-            </div>
             <?php }
             else { ?>
 			<div class="row">

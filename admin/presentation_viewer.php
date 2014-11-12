@@ -1,6 +1,8 @@
 <?php
 include("header.php");
+//require '../bin/chat-server.php';
 require ABSPATH . '/vendor/autoload.php';
+
 ?>
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css"/>
 <link rel="stylesheet" type="text/css" href="../assets/global/plugins/pdfjs/web/viewer.css"/>
