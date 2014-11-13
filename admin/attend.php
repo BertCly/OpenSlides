@@ -63,7 +63,7 @@ require ABSPATH . '/vendor/autoload.php';
                                 </div>
 
                             </form>
-                            <button id="sendButton" class="btn blue"><i class="fa fa-caret-square-o-right"></i> Send
+                            <button id="sendButton" class="btn hidden blue"><i class="fa fa-caret-square-o-right"></i> Send
                             </button>
                         </div>
                     </div>
@@ -149,9 +149,6 @@ jQuery(document).ready(function() {
     conn.onopen = function(e) {
         conn.send('newAttender');
     };
-//    conn.onclose = function(e) {
-//        conn.send('lostAttender');
-//    };
     conn.onmessage = function(e) {
         if (e.data.indexOf("page") > -1) {
             console.log(e.data);
@@ -161,6 +158,24 @@ jQuery(document).ready(function() {
     };
 
 });
+</script>
+
+<script src="http://autobahn.s3.amazonaws.com/js/autobahn.min.js"></script>
+<script>
+    var conn = new ab.Session('ws://localhost:8081',
+        function() {
+            conn.subscribe('<?php echo $sessionID; ?>', function(topic, data) {
+                // This is where you would add the new article to the DOM (beyond the scope of this tutorial)
+                console.log('test');
+                console.log('Go to next slide session "' + topic + '" : ' + data.slide);
+                PDFView.page = data.slide;
+            });
+        },
+        function() {
+            console.warn('WebSocket connection closed');
+        },
+        {'skipSubprotocolCheck': true}
+    );
 </script>
 <!-- END JAVASCRIPTS -->
 </body>

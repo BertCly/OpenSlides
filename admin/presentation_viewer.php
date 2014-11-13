@@ -147,16 +147,20 @@ jQuery(document).ready(function() {
         });
     }
 
-    //Listen for the event
-//    document.getElementById('next').addEventListener('click',
-//        function() {
-//            conn.send('next');
-//        });
     window.addEventListener('pagechange', function pagechange(evt) {
         var page = evt.pageNumber;
         if (PDFView.previousPageNumber !== page) {
-            var message = 'page:' + page;
-            conn.send(message);
+//            var message = 'page:' + page;
+//            conn.send(message);
+            $.ajax({
+                type: "POST",
+                url: "../assets/global/dataConnection/ajaxActions.php",
+                data: {action: "goToSlide",
+                    slide: page
+                },
+                success: function(result) {
+                }
+            });
         }
     }, true);
 
@@ -176,10 +180,10 @@ jQuery(document).ready(function() {
 //        attenders = attenders + 1;
 //        $("#attenders").text(attenders);
 //    };
-//    conn.onclose = function(e) {
-//        attenders = attenders - 1;
-//        $("#attenders").text(attenders);
-//    };
+    conn.onclose = function(e) {
+        attenders = attenders - 1;
+        $("#attenders").text(attenders);
+    };
 
 });
 </script>

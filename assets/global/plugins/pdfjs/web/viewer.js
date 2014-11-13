@@ -307,7 +307,7 @@ var Cache = function cacheCache(size) {
 
 
 var DEFAULT_PREFERENCES = {
-  showPreviousViewOnLoad: true,
+  showPreviousViewOnLoad: false,
   defaultZoomValue: 'page-fit',//edited Bert
   ifAvailableShowOutlineOnLoad: false,
   enableHandToolOnLoad: false,
@@ -5192,10 +5192,11 @@ function webViewerInitialized() {
   if ('disableFontFace' in hashParams) {
     PDFJS.disableFontFace = (hashParams['disableFontFace'] === 'true');
   }
-
-  if ('disableHistory' in hashParams) {
-    PDFJS.disableHistory = (hashParams['disableHistory'] === 'true');
-  }
+//edited by bert. disable history
+//  if ('disableHistory' in hashParams) {
+//    PDFJS.disableHistory = (hashParams['disableHistory'] === 'true');
+//  }
+    PDFJS.disableHistory = true;
 
   if ('webgl' in hashParams) {
     PDFJS.disableWebGL = (hashParams['webgl'] !== 'true');

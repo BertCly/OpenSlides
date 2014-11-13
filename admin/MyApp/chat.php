@@ -10,7 +10,7 @@ class Chat implements MessageComponentInterface {
         $this->clients = new \SplObjectStorage;
     }
 
-    public function onOpen(ConnectionInterface $conn) {
+    public function onOpen(ConnectionInterface $conn, $topic) {
         // Store the new connection to send messages to later
         $this->clients->attach($conn);
 
