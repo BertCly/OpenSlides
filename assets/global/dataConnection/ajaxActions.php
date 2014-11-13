@@ -46,9 +46,7 @@ else if($action == 'updateStudent'){
 else if($action == 'removeStudent'){
     disableStudent($_POST['userID']);
 }
-else if($action == 'goToSlide'){
-    goToSlide($_POST['slide']);
-}
+
 // no valid method was found
 else {
     exit("No valid method found");

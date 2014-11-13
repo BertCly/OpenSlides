@@ -122,13 +122,56 @@ require ABSPATH . '/vendor/autoload.php';
 
 <!--<script src="../assets/global/plugins/jquery-live-menu/js/jquery-1.6.4.min.js"></script>-->
 <script src="../assets/global/plugins/jquery-live-menu/_source/jquery.liveMenu.source.js"></script>
+<script src="cdn/ws.js"></script>
+<script>
+    window.connect = function(){
+        window.ws = $.websocket("ws://127.0.0.1:8080/", {
+            open: function() {
+                $("#presentationName").text("Online");
+                ws.send("fetch");
+            },
+            close: function() {
+                $("#presentationName").text("Offline");
+            },
+            events: {
+//                fetch: function(e) {
+//                    $(".chatWindow .chat .msgs").html('');
+//                    $.each(e.data, function(i, elem){
+//                        $(".chatWindow .chat .msgs").append("<div class='msg' title='"+ elem.posted +"'><span class='name'>"+ elem.name +"</span> : <span class='msgc'>"+ elem.msg +"</span></div>");
+//                    });
+//                    scTop();
+//                },
+                onliners: function(e){
+                    $("li.active").html('');
+                    $("#attenders").text(e.data.length);
+//                    $.each(e.data, function(i, elem){
+//                        $("li.active").append("<div class='user'>"+ elem.name +"</div>");
+//                    });
+                }
+            }
+        });
+    };
+</script>
 <script>
 jQuery(document).ready(function() {
     Metronic.init(); // init metronic core components
     Layout.init(); // init current layout
     QuickSidebar.init(); // init quick sidebar
-    var attenders = 0;
-    var conn = new WebSocket('ws://localhost:8081');
+//    var attenders = 0;
+
+    connect();
+
+//    var val	 = $('#userID').text();
+//    if(val != ""){
+//        ws.send("register", {"name": val});
+//        ws.send("fetch");
+//    }
+
+
+
+//    setInterval(function(){
+//        ws.send("onliners");
+//    }, 4000);
 
     <?php if($presentation->filePath != '') echo "PDFView.open('../userData/presentations/".$presentation->filePath."', 0);";
    else echo "PDFView.open('helloworld.pdf', 0);"; ?>
@@ -147,45 +190,42 @@ jQuery(document).ready(function() {
         });
     }
 
+    //Listen for the event
+//    document.getElementById('next').addEventListener('click',
+//        function() {
+//            conn.send('next');
+//        });
     window.addEventListener('pagechange', function pagechange(evt) {
         var page = evt.pageNumber;
         if (PDFView.previousPageNumber !== page) {
-//            var message = 'page:' + page;
-//            conn.send(message);
-            $.ajax({
-                type: "POST",
-                url: "../assets/global/dataConnection/ajaxActions.php",
-                data: {action: "goToSlide",
-                    slide: page
-                },
-                success: function(result) {
-                }
-            });
+            var message = 'page:' + page;
+            ws.send("send", {"msg": message});
         }
     }, true);
 
-    conn.onmessage = function(e) {
-        console.log(e.data);
-        if (e.data == "newAttender") {
-            attenders = attenders + 1;
-            $("#attenders").text(attenders);
-        }
-        else if (e.data == "lostAttender") {
-            attenders = attenders - 1;
-            $("#attenders").text(attenders);
-        }
-    };
+//    conn.onmessage = function(e) {
+//        console.log(e.data);
+//        if (e.data == "newAttender") {
+//            attenders = attenders + 1;
+//            $("#attenders").text(attenders);
+//        }
+//        else if (e.data == "lostAttender") {
+//            attenders = attenders - 1;
+//            $("#attenders").text(attenders);
+//        }
+//    };
 
 //    conn.onopen = function(e) {
 //        attenders = attenders + 1;
 //        $("#attenders").text(attenders);
 //    };
-    conn.onclose = function(e) {
-        attenders = attenders - 1;
-        $("#attenders").text(attenders);
-    };
+//    conn.onclose = function(e) {
+//        attenders = attenders - 1;
+//        $("#attenders").text(attenders);
+//    };
 
 });
+
 </script>
 <!-- END JAVASCRIPTS -->
 </body>

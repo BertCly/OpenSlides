@@ -380,17 +380,4 @@ function getLiveSession($id){
     return $db->get_row("SELECT * FROM tblLiveSessions WHERE ID = $id;");
 }
 
-function goToSlide($slide){
-    $entryData = array(
-        'slide' => $slide
-    );
-
-    // This is our new stuff
-    $context = new ZMQContext();
-    $socket = $context->getSocket(ZMQ::SOCKET_PUSH, 'my pusher');
-    $socket->connect("tcp://localhost:5555");
-
-    $socket->send(json_encode($entryData));
-}
-
 ?>

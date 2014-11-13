@@ -5,12 +5,12 @@
 if($_SERVER["HTTP_HOST"] == 'localhost:8080' ){
     define('ADMIN_HOME','http://localhost:8080/masterthesis/admin');
     define('FRONTEND_HOME','http://localhost:8080/masterthesis/frontend');
-    define('ASSETS_HOME','http://localhost:8080/masterthesis/assets/');
+    define('ASSETS_HOME','http://localhost:8080/masterthesis/assets');
 }
 else{
-    define('ADMIN_HOME','masterthesis.azurewebsites.net/admin/');
-    define('FRONTEND_HOME','masterthesis.azurewebsites.net/frontend/');
-    define('ASSETS_HOME','masterthesis.azurewebsites.net/assets/');
+    define('ADMIN_HOME','masterthesis.azurewebsites.net/admin');
+    define('FRONTEND_HOME','masterthesis.azurewebsites.net/frontend');
+    define('ASSETS_HOME','masterthesis.azurewebsites.net/assets');
 }
 
 define("HOST", "dciilsfcal.database.windows.net");     // The host you want to connect to.

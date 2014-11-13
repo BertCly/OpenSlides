@@ -122,6 +122,33 @@ echo '<script src="../assets/global/plugins/pdfjs/web/viewer.js" type="text/java
 
 <!--<script src="../assets/global/plugins/jquery-live-menu/js/jquery-1.6.4.min.js"></script>-->
 <script src="../assets/global/plugins/jquery-live-menu/_source/jquery.liveMenu.source.js"></script>
+<script src="cdn/ws.js"></script>
+<script>
+    window.connect = function(){
+        window.ws = $.websocket("ws://127.0.0.1:8080/", {
+            open: function() {
+                $("#presentationName").text("Online");
+                ws.send("fetch");
+            },
+            close: function() {
+                $("#presentationName").text("Offline");
+            },
+            events: {
+                onliners: function(e){
+                    $("li.active").html('');
+                    $("#attenders").text(e.data.length);
+                },
+                single: function(e){
+                    var elem = e.data;
+                    //TODO: check type of message
+                    PDFView.page = elem.msg;
+//                    $("#presentationName").append("<div class='msg' title='"+ elem.posted +"'><span class='name'>"+ elem.name +"</span> : <span class='msgc'>"+ elem.msg +"</span></div>");
+
+                }
+            }
+        });
+    };
+</script>
 <script>
 jQuery(document).ready(function() {
     Metronic.init(); // init metronic core components
@@ -130,6 +157,8 @@ jQuery(document).ready(function() {
 
     <?php if(isset($presentation)) echo "PDFView.open('../userData/presentations/".$presentation->filePath."', 0);";
     ?>
+
+    connect();
 
     function alertMessage(message){
         Metronic.alert({
@@ -145,37 +174,22 @@ jQuery(document).ready(function() {
         });
     }
 
-    var conn = new WebSocket('ws://localhost:8081');
-    conn.onopen = function(e) {
-        conn.send('newAttender');
-    };
-    conn.onmessage = function(e) {
-        if (e.data.indexOf("page") > -1) {
-            console.log(e.data);
-            var pieces = e.data.split(":");
-            PDFView.page = pieces[1];
-        }
-    };
+//    var conn = new WebSocket('ws://localhost:8080');
+//    conn.onopen = function(e) {
+//        conn.send('newAttender');
+//    };
+//    conn.onclose = function(e) {
+//        conn.send('lostAttender');
+//    };
+//    conn.onmessage = function(e) {
+//        if (e.data.indexOf("page") > -1) {
+//            console.log(e.data);
+//            var pieces = e.data.split(":");
+//            PDFView.page = pieces[1];
+//        }
+//    };
 
 });
-</script>
-
-<script src="http://autobahn.s3.amazonaws.com/js/autobahn.min.js"></script>
-<script>
-    var conn = new ab.Session('ws://localhost:8081',
-        function() {
-            conn.subscribe('<?php echo $sessionID; ?>', function(topic, data) {
-                // This is where you would add the new article to the DOM (beyond the scope of this tutorial)
-                console.log('test');
-                console.log('Go to next slide session "' + topic + '" : ' + data.slide);
-                PDFView.page = data.slide;
-            });
-        },
-        function() {
-            console.warn('WebSocket connection closed');
-        },
-        {'skipSubprotocolCheck': true}
-    );
 </script>
 <!-- END JAVASCRIPTS -->
 </body>

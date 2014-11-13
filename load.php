@@ -28,4 +28,6 @@ function require_db() {
 }
 require_db();
 
+include_once dirname( __FILE__ )."/admin/inc/startServer.php";
+
 ?>
